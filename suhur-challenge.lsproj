@@ -1,0 +1,1443 @@
+{
+    "lens_id": "",
+    "document_id": "4MqWCMbeQYqcCLpcGjWU",
+    "original_document_id": "4MqWCMbeQYqcCLpcGjWU",
+    "version": "26",
+    "lastChanged": "1614622232420",
+    "preview": "icon.png",
+    "videoPreview": "preview.mp4",
+    "videoPreviewUpdateTime": "",
+    "isReadOnly": "false",
+    "isAutoSaved": "false",
+    "studioVersion": {
+        "createdWith": {
+            "type": "Public",
+            "major": "3",
+            "minor": "3",
+            "patch": "3",
+            "build": "0"
+        },
+        "lastSavedWith": {
+            "type": "Public",
+            "major": "3",
+            "minor": "3",
+            "patch": "3",
+            "build": "0"
+        }
+    },
+    "view": {
+        "ResourceUiComponent": {
+            "collapsedList": [
+                [
+                    [
+                        "Audio",
+                        "yum"
+                    ],
+                    [
+                        "Images"
+                    ],
+                    [
+                        "Images",
+                        "Gala Apple Food Sticker"
+                    ],
+                    [
+                        "Images",
+                        "Lets Go Running Sticker"
+                    ],
+                    [
+                        "Images",
+                        "banana-png"
+                    ],
+                    [
+                        "Prefabs"
+                    ],
+                    [
+                        "Prefabs",
+                        "AppleObject"
+                    ],
+                    [
+                        "Prefabs",
+                        "BananaObject"
+                    ],
+                    [
+                        "Scripts",
+                        "Behavior"
+                    ],
+                    [
+                        "Scripts",
+                        "FoodPrefabScript"
+                    ]
+                ]
+            ]
+        },
+        "SceneTreeUiComponent": {
+            "collapsedList": [
+                [
+                    "101:100",
+                    "1517446348227994:84813",
+                    "1614337339882032:755917",
+                    "1614337339882506:755918",
+                    "1614422378770473:967981",
+                    "1614610592818874:2608702",
+                    "1614616946005494:55408",
+                    "1614619692571121:656634",
+                    "1614619692590096:656898"
+                ]
+            ]
+        },
+        "MetaInfoUIComponent": {
+            "icon_hash": "56814dbefc6c60009fe6066406087653",
+            "icon_path": "icon.png",
+            "hints": [
+                ""
+            ],
+            "lens": "Suhur Challenge",
+            "applicability": "3",
+            "lens_descriptors": ""
+        },
+        "PreviewUiComponent": {
+            "preview_descriptor": {
+                "is_capture": "0",
+                "camera_type": "2"
+            },
+            "show_snap_ui": "true",
+            "show_sponsored_ui": "false",
+            "preview_images_project_config": {
+                "back_preview_id": "bundle:Preview\/Images\/Beach.jpg",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/Images\/Person 1.jpg",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:Preview\/Images\/Pavement\/Pavement.jpg",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_videos_project_config": {
+                "back_preview_id": "bundle:Preview\/Videos\/Beach.webm",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/Videos\/Open Mouth Person 1.webm",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:Preview\/Videos\/Climbing\/Climbing.webm",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_ie_project_config": {
+                "back_preview_id": "bundle:Preview\/InteractiveEnvironments\/Home",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/InteractiveEnvironments\/Home",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:Preview\/InteractiveEnvironments\/Home",
+                "spectacles_preview_is_favorite": "false"
+            }
+        },
+        "InspectorUiComponent": {
+            "collapsedList": [
+                [
+                    "1614285425567700:50917",
+                    "1614285425568640:50918",
+                    "1614285425620010:51123",
+                    "1614286872403643:267437",
+                    "1614287158009463:303955",
+                    "1614287220814731:318702",
+                    "1614288493224446:493403",
+                    "1614288661251872:521771",
+                    "1614288670994014:523356",
+                    "1614331511420469:1428011",
+                    "1614331511436177:1428148",
+                    "1614333595413774:27205",
+                    "1614333595431503:27342",
+                    "1614351575899101:684436",
+                    "1614351575928247:684573",
+                    "1614422130522302:903365",
+                    "1614422489350670:999209",
+                    "1614429652891505:1732757",
+                    "1614609667257138:2233822",
+                    "1614610948482808:22713",
+                    "1614610948498946:22846",
+                    "1614617006349445:83838"
+                ]
+            ]
+        },
+        "Material::UiComponent": {
+            "active_graph_asset": "-1:-1"
+        },
+        "Script::UiComponent": {
+            "active_graph_asset": "-1:-1"
+        }
+    },
+    "model": {
+        "IResourceManager": {
+            "list": [
+                {
+                    "resId": "1",
+                    "uid": "1:1",
+                    "name": "Camera Output",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "2",
+                    "uid": "2:2",
+                    "name": "Camera Input",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "15",
+                    "uid": "1614285595276006:86995",
+                    "name": "ObjectPrefab",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "16",
+                    "uid": "1614285599956516:88824",
+                    "name": "ObjectSpawner",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "18",
+                    "uid": "1614286119784360:162788",
+                    "name": "Files\/File25.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "20",
+                    "uid": "1614336134723450:514622",
+                    "name": "Files\/File28",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "21",
+                    "uid": "1614350923973838:577488",
+                    "name": "Files\/File34.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "26",
+                    "uid": "1614429344674150:1682353",
+                    "name": "Files\/File44.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "27",
+                    "uid": "1614603846486284:1247373",
+                    "name": "AppleObject",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "28",
+                    "uid": "1614603849637306:1250241",
+                    "name": "BananaObject",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "31",
+                    "uid": "1614608703265015:2013434",
+                    "name": "Files\/File51.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "32",
+                    "uid": "1614608963847013:2081727",
+                    "name": "Files\/File52",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "33",
+                    "uid": "1614616855133710:5765",
+                    "name": "Files\/File56.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                }
+            ],
+            "MaterialUpdateManager": {
+                "unrecognizedMaterials": ""
+            }
+        },
+        "InspectorComponent": {
+            "Component": {
+                "EyeColorVisual": {
+                    "uidData": "",
+                    "generalData": ""
+                },
+                "FaceStretchVisual": {
+                    "uidsToFeatureNamesWithIntensity": ""
+                },
+                "ScreenTransform": {
+                    "uidData": [
+                        {
+                            "k": "1614331511402504:1427877",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614331511420469:1428011",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614333595413774:27205",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614351575899101:684436",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614608849483436:2047244",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614608928675181:2071561",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614616946041443:55936",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614616946077602:56338",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614616946094283:56476",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614617006335157:83704",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614617006351528:83842",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614617006367398:83982",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614619692625506:657422",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614619692659320:657824",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614619692675147:657962",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614619692691654:658102",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        }
+                    ],
+                    "generalData": ""
+                }
+            }
+        },
+        "RenderOrderComponent": {
+            "autoRenderOrder": {
+                "0": "1517446348227994:84813",
+                "1": "1517446348228144:84822",
+                "2": "1528843813151434:5126",
+                "3": "1614285425567700:50917",
+                "4": "1614331511401714:1427875",
+                "5": "1614331511420294:1428010",
+                "6": "1614333595413505:27204",
+                "7": "1614337339882032:755917",
+                "8": "1614337339882506:755918",
+                "9": "1614337339882875:755919",
+                "10": "1614351575898825:684435",
+                "11": "1614608703300016:2013450",
+                "12": "1614608849238391:2045603",
+                "13": "1614608928674816:2071560",
+                "14": "1614609688420156:2254868",
+                "15": "1614616946005494:55408",
+                "16": "1614616946024606:55672",
+                "17": "1614616946058993:56074",
+                "18": "1614617006245389:82514",
+                "19": "1614617006263996:82778",
+                "20": "1614617006317057:83440",
+                "21": "1614619692571121:656634",
+                "22": "1614619692590096:656898",
+                "23": "1614619692607375:657158",
+                "24": "1614619692641269:657560"
+            }
+        },
+        "LayerComponent": {
+            "nextLayerId": "2",
+            "showOrthographicLayer": "true",
+            "layersInfo": [
+                {
+                    "layerId": "0",
+                    "layerName": "Default Layer",
+                    "layerMask": "1",
+                    "colorCode": "20"
+                },
+                {
+                    "layerId": "1",
+                    "layerName": "Orthographic Layer",
+                    "layerMask": "1048576",
+                    "colorCode": "21"
+                }
+            ]
+        },
+        "IFileManager": {
+            "pathes": [
+                {
+                    "k": "25",
+                    "v": "Files\/File25.js"
+                },
+                {
+                    "k": "28",
+                    "v": "Files\/File28"
+                },
+                {
+                    "k": "29",
+                    "v": "Files\/File29.gif"
+                },
+                {
+                    "k": "30",
+                    "v": "Files\/File30"
+                },
+                {
+                    "k": "31",
+                    "v": "Files\/File31"
+                },
+                {
+                    "k": "33",
+                    "v": "Files\/File33.lsmat"
+                },
+                {
+                    "k": "34",
+                    "v": "Files\/File34.pvr"
+                },
+                {
+                    "k": "35",
+                    "v": "Files\/File35.png"
+                },
+                {
+                    "k": "36",
+                    "v": "Files\/File36.png"
+                },
+                {
+                    "k": "37",
+                    "v": "Files\/File37.pvr"
+                },
+                {
+                    "k": "44",
+                    "v": "Files\/File44.mp3"
+                },
+                {
+                    "k": "45",
+                    "v": "Files\/File45.oprfb"
+                },
+                {
+                    "k": "46",
+                    "v": "Files\/File46.oprfb"
+                },
+                {
+                    "k": "47",
+                    "v": "Files\/File47.oprfb"
+                },
+                {
+                    "k": "48",
+                    "v": "Files\/File48.oprfb"
+                },
+                {
+                    "k": "51",
+                    "v": "Files\/File51.js"
+                },
+                {
+                    "k": "52",
+                    "v": "Files\/File52"
+                },
+                {
+                    "k": "53",
+                    "v": "Files\/File53.gif"
+                },
+                {
+                    "k": "54",
+                    "v": "Files\/File54"
+                },
+                {
+                    "k": "55",
+                    "v": "Files\/File55"
+                },
+                {
+                    "k": "56",
+                    "v": "Files\/File56.js"
+                }
+            ]
+        },
+        "WorldComponent": {
+            "sceneFile": "scene.scn",
+            "sceneType": "binaryScene"
+        }
+    },
+    "controller": {
+        "IResourceController": {
+            "public": {
+                "pathes": [
+                    {
+                        "k": "974",
+                        "v": "Scripts\/FoodPrefabScript.js"
+                    },
+                    {
+                        "k": "980",
+                        "v": "Scripts"
+                    },
+                    {
+                        "k": "982",
+                        "v": "Images\/Gala Apple Food Sticker.gif"
+                    },
+                    {
+                        "k": "983",
+                        "v": "Images\/banana-png.png"
+                    },
+                    {
+                        "k": "984",
+                        "v": "Images"
+                    },
+                    {
+                        "k": "7830",
+                        "v": "Audio\/yum.mp3"
+                    },
+                    {
+                        "k": "7831",
+                        "v": "Prefabs"
+                    },
+                    {
+                        "k": "7832",
+                        "v": "Prefabs\/AppleObject.oprfb"
+                    },
+                    {
+                        "k": "7833",
+                        "v": "Prefabs\/BananaObject.oprfb"
+                    },
+                    {
+                        "k": "7834",
+                        "v": "Audio"
+                    },
+                    {
+                        "k": "7837",
+                        "v": "Scripts\/Behavior.js"
+                    },
+                    {
+                        "k": "7838",
+                        "v": "Images\/Lets Go Running Sticker.gif"
+                    },
+                    {
+                        "k": "7839",
+                        "v": "Scripts\/Game.js"
+                    }
+                ],
+                "hashes": [
+                    {
+                        "k": "1",
+                        "v": "671afbc1d6810060ccbaac866a91cfa1"
+                    },
+                    {
+                        "k": "2",
+                        "v": "8e599835d0d45c5879eafb1f474469cd"
+                    },
+                    {
+                        "k": "967",
+                        "v": "0cf0e87a54f33218fcf92a12d7f0ede2"
+                    },
+                    {
+                        "k": "968",
+                        "v": "a0945fa6153fe5e1522e80d75085edda"
+                    },
+                    {
+                        "k": "969",
+                        "v": "8ec51e95bbbfba58626a5bcdb6573921"
+                    },
+                    {
+                        "k": "970",
+                        "v": "a73ba9a92aa4db131bfd4268dbc247ed"
+                    },
+                    {
+                        "k": "971",
+                        "v": "e9427fef0344c37d4b4a1d224fbd5de3"
+                    },
+                    {
+                        "k": "972",
+                        "v": "0fb6996039635f8c6cea6db83cbf4e7b"
+                    },
+                    {
+                        "k": "973",
+                        "v": "651fee7389c23dc198e773a5ccbd8fee"
+                    },
+                    {
+                        "k": "974",
+                        "v": "4a1dadd28e27b4872cb76d65664b8a32"
+                    },
+                    {
+                        "k": "975",
+                        "v": "d421b7b8254cb0a848ccae576b7c24e2"
+                    },
+                    {
+                        "k": "976",
+                        "v": "0586e6a8182fca4fbc3475dd2bde0017"
+                    },
+                    {
+                        "k": "977",
+                        "v": "60d1b6597f8c13bca9b66e3379ebfd6f"
+                    },
+                    {
+                        "k": "978",
+                        "v": "4a3639c37651a636371f689a9c087fdc"
+                    },
+                    {
+                        "k": "979",
+                        "v": "fd786e9efb4d1bb00c828ac144288fdf"
+                    },
+                    {
+                        "k": "981",
+                        "v": "271451eb7cf5a76428bc1b4363879d11"
+                    },
+                    {
+                        "k": "982",
+                        "v": "c3537588c70ef9b57c0dec6a4bbf5765"
+                    },
+                    {
+                        "k": "983",
+                        "v": "2f296f2847ea7229a367a13262bff30e"
+                    },
+                    {
+                        "k": "984",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "985",
+                        "v": "6fa33e598332e7360836a86be73df892"
+                    },
+                    {
+                        "k": "986",
+                        "v": "430d48dabc1eb1dbd6078c6fdc2e4be4"
+                    },
+                    {
+                        "k": "987",
+                        "v": "7dadc73ac7b08679a0e7195693bf5ce8"
+                    },
+                    {
+                        "k": "988",
+                        "v": "482e9bb57df1fd5e463bea6891971ee8"
+                    },
+                    {
+                        "k": "989",
+                        "v": "1c4913463c92e7549e7d56fd7d379a07"
+                    },
+                    {
+                        "k": "992",
+                        "v": "ca6a55793555b88df4aca4a7329624e5"
+                    },
+                    {
+                        "k": "994",
+                        "v": "09a5c3ee815c9134ffc2d25e7355d78a"
+                    },
+                    {
+                        "k": "996",
+                        "v": "26b5600591ba238fbcf5109847db6d02"
+                    },
+                    {
+                        "k": "997",
+                        "v": "9107aa91a8d18484c51680d3a7a03d5a"
+                    },
+                    {
+                        "k": "999",
+                        "v": "0b003c5915982817767fd2220f8e8bd4"
+                    },
+                    {
+                        "k": "1000",
+                        "v": "13ba64ff1b481bc1b58fb4526809cb7b"
+                    },
+                    {
+                        "k": "1003",
+                        "v": "6955ae436ec6a2c1fa59d00f761681f4"
+                    },
+                    {
+                        "k": "1005",
+                        "v": "cfb995f6f6bdb951ea945c298701ad69"
+                    },
+                    {
+                        "k": "1006",
+                        "v": "0377342409f8ec90142150bdb61f7bc7"
+                    },
+                    {
+                        "k": "1008",
+                        "v": "83952503d7715d6e7a4a382918761159"
+                    },
+                    {
+                        "k": "1009",
+                        "v": "be41801402376ae465615fd09cf21b74"
+                    },
+                    {
+                        "k": "1010",
+                        "v": "e9167dc2c6b4be6840fd00390a21b633"
+                    },
+                    {
+                        "k": "1011",
+                        "v": "3dbd92041b8a05d906e852aee2830ff2"
+                    },
+                    {
+                        "k": "1012",
+                        "v": "cb0133f73038a8bd58421bc288e5d83e"
+                    },
+                    {
+                        "k": "1014",
+                        "v": "b18424e4270fff057a06a47e7d40d28e"
+                    },
+                    {
+                        "k": "7830",
+                        "v": "27ddbc2f83f04b7d6b90b982787c053f"
+                    },
+                    {
+                        "k": "7832",
+                        "v": "b88c11e44c89c4d44fdb9d73512212ba"
+                    },
+                    {
+                        "k": "7833",
+                        "v": "c0022149ee0f29f7e66103fabe015617"
+                    },
+                    {
+                        "k": "7835",
+                        "v": "9457d83d96c709f0d223cbbea4b52c84"
+                    },
+                    {
+                        "k": "7836",
+                        "v": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "k": "7837",
+                        "v": "91c13f7497081d3638dd81f8c7b017fd"
+                    },
+                    {
+                        "k": "7838",
+                        "v": "6ecf823ae410a0d8514cb71b62c33087"
+                    },
+                    {
+                        "k": "7839",
+                        "v": "e729dbd8555c6d4b60f3aa560e11f97c"
+                    }
+                ],
+                "publicState": {
+                    "tree": {
+                        "isFolder": "true",
+                        "lastModified": "2021-03-01T16:36:59",
+                        "name": "Public",
+                        "hash": "39687a2dce15885cff571539eb3cebbb",
+                        "children": [
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2021-03-01T17:19:37",
+                                "name": "Prefabs",
+                                "hash": "1333ac5519b7b4080f07a8b31458f193",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-01T17:19:37",
+                                        "name": "BananaObject.oprfb",
+                                        "hash": "c0022149ee0f29f7e66103fabe015617",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-01T15:04:06",
+                                        "name": "AppleObject.oprfb",
+                                        "hash": "b88c11e44c89c4d44fdb9d73512212ba",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-01T15:03:00",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2021-03-01T16:29:26",
+                                "name": "Images",
+                                "hash": "e31ac7bdc7c8e08a909727cd06b3ccd8",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-02-26T16:48:01",
+                                        "name": "banana-png.png",
+                                        "hash": "2f296f2847ea7229a367a13262bff30e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-01T16:29:23",
+                                        "name": "Lets Go Running Sticker.gif",
+                                        "hash": "6ecf823ae410a0d8514cb71b62c33087",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-02-26T11:42:14",
+                                        "name": "Gala Apple Food Sticker.gif",
+                                        "hash": "c3537588c70ef9b57c0dec6a4bbf5765",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-02-26T16:48:50",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2021-03-01T15:04:44",
+                                "name": "Audio",
+                                "hash": "0fc23c8f31e46707e9661ffee82bd937",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-02-27T14:35:40",
+                                        "name": "yum.mp3",
+                                        "hash": "27ddbc2f83f04b7d6b90b982787c053f",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-01T15:04:37",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2021-03-01T20:09:11",
+                                "name": "Scripts",
+                                "hash": "6a9fa34bd907cc6681f0cf2669403f62",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-01T20:05:51",
+                                        "name": "Game.js",
+                                        "hash": "e729dbd8555c6d4b60f3aa560e11f97c",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-01T20:09:11",
+                                        "name": "FoodPrefabScript.js",
+                                        "hash": "4a1dadd28e27b4872cb76d65664b8a32",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-01T16:25:03",
+                                        "name": "Behavior.js",
+                                        "hash": "91c13f7497081d3638dd81f8c7b017fd",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-02-26T10:23:12",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-01-14T19:26:46",
+                                "name": "folder.lock",
+                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
+                            }
+                        ]
+                    }
+                },
+                "complexResources": ""
+            },
+            "tree": {
+                "name": "",
+                "type": "0",
+                "subtype": "-1",
+                "resourceId": "-1",
+                "dependency": "0",
+                "uid": "-1:-1",
+                "fileId": "18446744073709551615",
+                "originalId": "18446744073709551615",
+                "publicId": "18446744073709551615",
+                "source": "",
+                "additional": "",
+                "resources": [
+                    {
+                        "name": "Render Target",
+                        "type": "1",
+                        "subtype": "1",
+                        "resourceId": "1",
+                        "dependency": "0",
+                        "uid": "1:1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": {
+                            "resourceInfoExportKey": {
+                                "RenderTargetRole": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Device Camera Texture",
+                        "type": "1",
+                        "subtype": "3",
+                        "resourceId": "2",
+                        "dependency": "0",
+                        "uid": "2:2",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Scripts",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "980",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "FoodPrefabScript",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "18",
+                                "dependency": "0",
+                                "uid": "1614286119784360:162788",
+                                "fileId": "25",
+                                "originalId": "18446744073709551615",
+                                "publicId": "974",
+                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-MzDBSc\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Behavior",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "31",
+                                "dependency": "0",
+                                "uid": "1614608703265015:2013434",
+                                "fileId": "51",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7837",
+                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-jKETlZ\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Game",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "33",
+                                "dependency": "0",
+                                "uid": "1614616855133710:5765",
+                                "fileId": "56",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7839",
+                                "source": "\/Users\/joyce\/Desktop\/cookie 2\/Public\/Scripts\/Game.js",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Images",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "984",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "banana-png",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "21",
+                                "dependency": "0",
+                                "uid": "1614350923973838:577488",
+                                "fileId": "34",
+                                "originalId": "35",
+                                "publicId": "983",
+                                "source": "\/Users\/mac 1\/Desktop\/banana-png.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Gala Apple Food Sticker",
+                                "type": "1",
+                                "subtype": "5",
+                                "resourceId": "20",
+                                "dependency": "0",
+                                "uid": "1614336134723450:514622",
+                                "fileId": "28",
+                                "originalId": "29",
+                                "publicId": "982",
+                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-hQdkkQ\/animation.t3d",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Lets Go Running Sticker",
+                                "type": "1",
+                                "subtype": "5",
+                                "resourceId": "32",
+                                "dependency": "0",
+                                "uid": "1614608963847013:2081727",
+                                "fileId": "52",
+                                "originalId": "53",
+                                "publicId": "7838",
+                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-sKvThV\/animation.t3d",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Prefabs",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "7831",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "AppleObject",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "27",
+                                "dependency": "0",
+                                "uid": "1614603846486284:1247373",
+                                "fileId": "45",
+                                "originalId": "46",
+                                "publicId": "7832",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "BananaObject",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "28",
+                                "dependency": "0",
+                                "uid": "1614603849637306:1250241",
+                                "fileId": "47",
+                                "originalId": "48",
+                                "publicId": "7833",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Audio",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "7834",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "yum",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "26",
+                                "dependency": "0",
+                                "uid": "1614429344674150:1682353",
+                                "fileId": "44",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7830",
+                                "source": "\/Users\/mac 1\/Downloads\/sound.mp3",
+                                "additional": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "InspectorController": {
+            "selection": ""
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": "",
+            "17": "",
+            "18": "",
+            "19": "",
+            "20": "",
+            "22": "",
+            "23": "",
+            "24": "",
+            "25": "",
+            "26": "",
+            "27": "",
+            "28": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": [
+                    {
+                        "k": "1614333595413505:27204",
+                        "v": {
+                            "prefab": "1614603846486284:1247373",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1614333595413505:27204",
+                                    "v": "1614333595413505:27204"
+                                },
+                                {
+                                    "k": "1614333595413774:27205",
+                                    "v": "1614333595413774:27205"
+                                },
+                                {
+                                    "k": "1614333595431503:27342",
+                                    "v": "1614333595431503:27342"
+                                },
+                                {
+                                    "k": "1614333613561677:31720",
+                                    "v": "1614333613561677:31720"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1614351575898825:684435",
+                        "v": {
+                            "prefab": "1614603849637306:1250241",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1614351575898825:684435",
+                                    "v": "1614351575898825:684435"
+                                },
+                                {
+                                    "k": "1614351575899101:684436",
+                                    "v": "1614351575899101:684436"
+                                },
+                                {
+                                    "k": "1614351575928247:684573",
+                                    "v": "1614351575928247:684573"
+                                },
+                                {
+                                    "k": "1614351672922361:703261",
+                                    "v": "1614351672922361:703261"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "importInfo": ""
+        },
+        "Compression::IController": {
+            "compression_info": [
+                {
+                    "k": "1614336134723450:514622",
+                    "v": {
+                        "infos": {
+                            "originalSize": "112036",
+                            "compressedSize": "39823",
+                            "originalRAM": "4194304",
+                            "compressedRAM": "524288",
+                            "extension": "t3d",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "30",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "81642e9450d850c88b9f097f08d4be19",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "31"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614350923973838:577488",
+                    "v": {
+                        "infos": {
+                            "originalSize": "87769",
+                            "compressedSize": "47237",
+                            "originalRAM": "11421472",
+                            "compressedRAM": "1430576",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "36",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "2f296f2847ea7229a367a13262bff30e",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "37"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614608963847013:2081727",
+                    "v": {
+                        "infos": {
+                            "originalSize": "109566",
+                            "compressedSize": "50262",
+                            "originalRAM": "4194304",
+                            "compressedRAM": "524288",
+                            "extension": "t3d",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "54",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "f2266ce840adfa2a96e14b108dc05a94",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "55"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

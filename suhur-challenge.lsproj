@@ -3,7 +3,7 @@
     "document_id": "4MqWCMbeQYqcCLpcGjWU",
     "original_document_id": "4MqWCMbeQYqcCLpcGjWU",
     "version": "26",
-    "lastChanged": "1614790826190",
+    "lastChanged": "1614791929573",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -41,13 +41,6 @@
                         "yum"
                     ],
                     [
-                        "Example Textures [REMOVE_ME]"
-                    ],
-                    [
-                        "Example Textures [REMOVE_ME]",
-                        "space_background"
-                    ],
-                    [
                         "Fonts"
                     ],
                     [
@@ -56,10 +49,6 @@
                     ],
                     [
                         "Images"
-                    ],
-                    [
-                        "Images",
-                        "Portrait Background Segmentation"
                     ],
                     [
                         "Images",
@@ -185,9 +174,6 @@
                         "FoodPrefabScript"
                     ],
                     [
-                        "Textures"
-                    ],
-                    [
                         "Textures",
                         "Base"
                     ],
@@ -198,6 +184,10 @@
                     [
                         "Textures",
                         "Normal"
+                    ],
+                    [
+                        "Textures",
+                        "Portrait Background Segmentation"
                     ],
                     [
                         "Textures",
@@ -212,10 +202,7 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "101:100",
                     "1517446348227994:84813",
-                    "1614331511401714:1427875",
-                    "1614337339882032:755917",
                     "1614337339882506:755918",
                     "1614422378770473:967981",
                     "1614608849238391:2045603",
@@ -259,7 +246,7 @@
             "preview_images_project_config": {
                 "back_preview_id": "bundle:Preview\/Images\/Beach.jpg",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "bundle:Preview\/Images\/Person 1.jpg",
+                "front_preview_id": "bundle:Preview\/Images\/Cat And Dog.jpg",
                 "front_preview_is_favorite": "false",
                 "spectacles_preview_id": "bundle:Preview\/Images\/Pavement\/Pavement.jpg",
                 "spectacles_preview_is_favorite": "false"
@@ -267,7 +254,7 @@
             "preview_videos_project_config": {
                 "back_preview_id": "bundle:Preview\/Videos\/Beach.webm",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "bundle:Preview\/Videos\/Open Mouth Person 1.webm",
+                "front_preview_id": "bundle:Preview\/Videos\/Open Mouth Person 2.webm",
                 "front_preview_is_favorite": "false",
                 "spectacles_preview_id": "bundle:Preview\/Videos\/Climbing\/Climbing.webm",
                 "spectacles_preview_is_favorite": "false"
@@ -650,14 +637,6 @@
                     "resId": "81",
                     "uid": "1614780237241538:449208",
                     "name": "Files\/File179.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "82",
-                    "uid": "1614790719091451:146010",
-                    "name": "Files\/File211.jpg",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -1531,28 +1510,12 @@
                     "v": "Files\/File210.pvr"
                 },
                 {
-                    "k": "211",
-                    "v": "Files\/File211.pvr"
-                },
-                {
-                    "k": "212",
-                    "v": "Files\/File212.png"
-                },
-                {
-                    "k": "213",
-                    "v": "Files\/File213.png"
-                },
-                {
                     "k": "214",
                     "v": "Files\/File214"
                 },
                 {
                     "k": "215",
                     "v": "Files\/File215.lsmat"
-                },
-                {
-                    "k": "216",
-                    "v": "Files\/File216.pvr"
                 }
             ]
         },
@@ -1732,14 +1695,6 @@
                     {
                         "k": "7885",
                         "v": "Images\/background.jpg"
-                    },
-                    {
-                        "k": "7887",
-                        "v": "Example Textures [REMOVE_ME]"
-                    },
-                    {
-                        "k": "7888",
-                        "v": "Example Textures [REMOVE_ME]\/space_background.png"
                     },
                     {
                         "k": "7889",
@@ -2127,9 +2082,9 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-03-03T18:58:39",
+                        "lastModified": "2021-03-03T19:11:06",
                         "name": "Public",
-                        "hash": "809c8caa1de5ca8b8a4bc75da4189ec6",
+                        "hash": "aab79d59957005ff749e8150099b40d8",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -2418,28 +2373,6 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-03T18:58:39",
-                                "name": "Example Textures [REMOVE_ME]",
-                                "hash": "d9944917de44468941724e8a95cefe43",
-                                "children": [
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-03-03T18:58:39",
-                                        "name": "space_background.png",
-                                        "hash": "87daba2e83cda8b89532e73ab3b19542",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-03-03T18:58:39",
-                                        "name": "folder.lock",
-                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                        "children": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "isFolder": "true",
                                 "lastModified": "2021-03-03T15:09:15",
                                 "name": "Scripts",
                                 "hash": "a2bcf44dbbbf5320d671cddec0a13599",
@@ -2676,19 +2609,6 @@
                                 "originalId": "58",
                                 "publicId": "7840",
                                 "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/startButton.png",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Portrait Background Segmentation",
-                                "type": "1",
-                                "subtype": "14",
-                                "resourceId": "38",
-                                "dependency": "0",
-                                "uid": "1614715629003258:275610",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "18446744073709551615",
-                                "source": "",
                                 "additional": ""
                             },
                             {
@@ -3086,6 +3006,19 @@
                                 "publicId": "7862",
                                 "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-mKEvTy\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Portrait Background Segmentation",
+                                "type": "1",
+                                "subtype": "14",
+                                "resourceId": "38",
+                                "dependency": "0",
+                                "uid": "1614715629003258:275610",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     },
@@ -3157,34 +3090,6 @@
                         "additional": ""
                     },
                     {
-                        "name": "Example Textures [REMOVE_ME]",
-                        "type": "0",
-                        "subtype": "-1",
-                        "resourceId": "-1",
-                        "dependency": "0",
-                        "uid": "-1:-1",
-                        "fileId": "18446744073709551615",
-                        "originalId": "18446744073709551615",
-                        "publicId": "7887",
-                        "source": "",
-                        "additional": "",
-                        "resources": [
-                            {
-                                "name": "space_background",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "82",
-                                "dependency": "0",
-                                "uid": "1614790719091451:146010",
-                                "fileId": "211",
-                                "originalId": "212",
-                                "publicId": "7888",
-                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-YbJLEg\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
-                                "additional": ""
-                            }
-                        ]
-                    },
-                    {
                         "name": "Materials",
                         "type": "0",
                         "subtype": "-1",
@@ -3218,7 +3123,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1614617006245389:82514"
+                    "1614760162857401:177505"
                 ]
             }
         },
@@ -3810,33 +3715,6 @@
                                     "settings_hash": "2049"
                                 },
                                 "v": "204"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "k": "1614790719091451:146010",
-                    "v": {
-                        "infos": {
-                            "originalSize": "132222",
-                            "compressedSize": "74321",
-                            "originalRAM": "8294400",
-                            "compressedRAM": "1036800",
-                            "extension": "png",
-                            "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1"
-                            }
-                        },
-                        "uncompressed_file": "213",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "87daba2e83cda8b89532e73ab3b19542",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "216"
                             }
                         ]
                     }

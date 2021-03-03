@@ -3,7 +3,7 @@
     "document_id": "4MqWCMbeQYqcCLpcGjWU",
     "original_document_id": "4MqWCMbeQYqcCLpcGjWU",
     "version": "26",
-    "lastChanged": "1614622232420",
+    "lastChanged": "1614790826190",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -30,34 +30,143 @@
             "collapsedList": [
                 [
                     [
+                        "Audio"
+                    ],
+                    [
+                        "Audio",
+                        "game"
+                    ],
+                    [
                         "Audio",
                         "yum"
+                    ],
+                    [
+                        "Example Textures [REMOVE_ME]"
+                    ],
+                    [
+                        "Example Textures [REMOVE_ME]",
+                        "space_background"
+                    ],
+                    [
+                        "Fonts"
+                    ],
+                    [
+                        "Fonts",
+                        "bitsy-ar-standardline"
                     ],
                     [
                         "Images"
                     ],
                     [
                         "Images",
-                        "Gala Apple Food Sticker"
+                        "Portrait Background Segmentation"
                     ],
                     [
                         "Images",
-                        "Lets Go Running Sticker"
+                        "background"
                     ],
                     [
                         "Images",
-                        "banana-png"
+                        "banana"
+                    ],
+                    [
+                        "Images",
+                        "button-bg"
+                    ],
+                    [
+                        "Images",
+                        "cheeks"
+                    ],
+                    [
+                        "Images",
+                        "crown"
+                    ],
+                    [
+                        "Images",
+                        "date"
+                    ],
+                    [
+                        "Images",
+                        "introduction"
+                    ],
+                    [
+                        "Images",
+                        "message-info"
+                    ],
+                    [
+                        "Images",
+                        "message-title"
+                    ],
+                    [
+                        "Images",
+                        "pepper"
+                    ],
+                    [
+                        "Images",
+                        "pepper-icon"
+                    ],
+                    [
+                        "Images",
+                        "salt"
+                    ],
+                    [
+                        "Images",
+                        "salt-icon"
+                    ],
+                    [
+                        "Images",
+                        "sambousik"
+                    ],
+                    [
+                        "Images",
+                        "startButton"
+                    ],
+                    [
+                        "Images",
+                        "water"
+                    ],
+                    [
+                        "Materials"
+                    ],
+                    [
+                        "Materials",
+                        "BackgroundMat"
                     ],
                     [
                         "Prefabs"
                     ],
                     [
                         "Prefabs",
-                        "AppleObject"
+                        "EdibleFood-Banana"
                     ],
                     [
                         "Prefabs",
-                        "BananaObject"
+                        "EdibleFood-Dates"
+                    ],
+                    [
+                        "Prefabs",
+                        "EdibleFood-Sambusik"
+                    ],
+                    [
+                        "Prefabs",
+                        "EdibleFood-Water"
+                    ],
+                    [
+                        "Prefabs",
+                        "NotEdibleFood-Pepper"
+                    ],
+                    [
+                        "Prefabs",
+                        "NotEdibleFood-Salt"
+                    ],
+                    [
+                        "Render Target 2"
+                    ],
+                    [
+                        "Script"
+                    ],
+                    [
+                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -65,7 +174,37 @@
                     ],
                     [
                         "Scripts",
+                        "CheeksScript"
+                    ],
+                    [
+                        "Scripts",
+                        "CrownScript"
+                    ],
+                    [
+                        "Scripts",
                         "FoodPrefabScript"
+                    ],
+                    [
+                        "Textures"
+                    ],
+                    [
+                        "Textures",
+                        "Base"
+                    ],
+                    [
+                        "Textures",
+                        "MaterialParams"
+                    ],
+                    [
+                        "Textures",
+                        "Normal"
+                    ],
+                    [
+                        "Textures",
+                        "white"
+                    ],
+                    [
+                        "Unlit"
                     ]
                 ]
             ]
@@ -75,13 +214,28 @@
                 [
                     "101:100",
                     "1517446348227994:84813",
+                    "1614331511401714:1427875",
                     "1614337339882032:755917",
                     "1614337339882506:755918",
                     "1614422378770473:967981",
+                    "1614608849238391:2045603",
                     "1614610592818874:2608702",
                     "1614616946005494:55408",
+                    "1614617006245389:82514",
+                    "1614617006263996:82778",
                     "1614619692571121:656634",
-                    "1614619692590096:656898"
+                    "1614619692590096:656898",
+                    "1614715294080531:214318",
+                    "1614758158612770:210564",
+                    "1614759727705555:27294",
+                    "1614759727706124:27296",
+                    "1614760162857401:177505",
+                    "1614764866064982:311648",
+                    "1614766025428477:561985",
+                    "1614766025450142:562249",
+                    "1614769392895677:1267524",
+                    "1614776783056289:943714",
+                    "1614790719184820:146045"
                 ]
             ]
         },
@@ -130,28 +284,27 @@
         "InspectorUiComponent": {
             "collapsedList": [
                 [
+                    "101:100",
                     "1614285425567700:50917",
-                    "1614285425568640:50918",
                     "1614285425620010:51123",
                     "1614286872403643:267437",
                     "1614287158009463:303955",
                     "1614287220814731:318702",
                     "1614288493224446:493403",
-                    "1614288661251872:521771",
                     "1614288670994014:523356",
                     "1614331511420469:1428011",
-                    "1614331511436177:1428148",
                     "1614333595413774:27205",
-                    "1614333595431503:27342",
                     "1614351575899101:684436",
-                    "1614351575928247:684573",
                     "1614422130522302:903365",
                     "1614422489350670:999209",
                     "1614429652891505:1732757",
                     "1614609667257138:2233822",
                     "1614610948482808:22713",
                     "1614610948498946:22846",
-                    "1614617006349445:83838"
+                    "1614764196333784:117624",
+                    "1614769277112878:1219164",
+                    "1614769312384999:1236630",
+                    "1614769392895814:1267525"
                 ]
             ]
         },
@@ -206,44 +359,12 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "20",
-                    "uid": "1614336134723450:514622",
-                    "name": "Files\/File28",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "21",
-                    "uid": "1614350923973838:577488",
-                    "name": "Files\/File34.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "26",
                     "uid": "1614429344674150:1682353",
                     "name": "Files\/File44.mp3",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
-                },
-                {
-                    "resId": "27",
-                    "uid": "1614603846486284:1247373",
-                    "name": "AppleObject",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "0"
-                },
-                {
-                    "resId": "28",
-                    "uid": "1614603849637306:1250241",
-                    "name": "BananaObject",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "0"
                 },
                 {
                     "resId": "31",
@@ -254,17 +375,297 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "32",
-                    "uid": "1614608963847013:2081727",
-                    "name": "Files\/File52",
+                    "resId": "33",
+                    "uid": "1614616855133710:5765",
+                    "name": "Files\/File56.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
                 },
                 {
-                    "resId": "33",
-                    "uid": "1614616855133710:5765",
-                    "name": "Files\/File56.js",
+                    "resId": "34",
+                    "uid": "1614714246714293:23951",
+                    "name": "Files\/File57.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "36",
+                    "uid": "1614715449047978:248390",
+                    "name": "Files\/File65",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "37",
+                    "uid": "1614715449107261:248429",
+                    "name": "Files\/File67.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "38",
+                    "uid": "1614715629003258:275610",
+                    "name": "Portrait Background Segmentation",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "39",
+                    "uid": "1614715784889096:303891",
+                    "name": "Files\/File69.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "40",
+                    "uid": "1614757165477949:78040",
+                    "name": "Files\/File73.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "41",
+                    "uid": "1614757166235645:78398",
+                    "name": "Files\/File76.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "42",
+                    "uid": "1614757679180615:130373",
+                    "name": "Files\/File81.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "43",
+                    "uid": "1614758132351514:201978",
+                    "name": "Files\/File85.ttf",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "44",
+                    "uid": "1614760286228679:215665",
+                    "name": "Files\/File86.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "45",
+                    "uid": "1614760286929799:216019",
+                    "name": "Files\/File89.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "49",
+                    "uid": "1614764146892668:107122",
+                    "name": "Render Target",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "52",
+                    "uid": "1614767446243663:936693",
+                    "name": "Files\/File106.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "53",
+                    "uid": "1614768899189821:1137654",
+                    "name": "Files\/File110.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "54",
+                    "uid": "1614769252606202:1211031",
+                    "name": "Files\/File111.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "55",
+                    "uid": "1614770041020417:1422594",
+                    "name": "Files\/File115.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "57",
+                    "uid": "1614771327408355:1635649",
+                    "name": "Files\/File118.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "58",
+                    "uid": "1614771327524288:1635677",
+                    "name": "Files\/File120.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "59",
+                    "uid": "1614771327638222:1635701",
+                    "name": "Files\/File122.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "60",
+                    "uid": "1614772115301605:1851518",
+                    "name": "Files\/File124.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "63",
+                    "uid": "1614772119582131:1857284",
+                    "name": "Files\/File133.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "64",
+                    "uid": "1614772121830040:1860170",
+                    "name": "Files\/File136.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "65",
+                    "uid": "1614772124175233:1863085",
+                    "name": "Files\/File139.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "69",
+                    "uid": "1614772423449905:1958733",
+                    "name": "Files\/File155.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "70",
+                    "uid": "1614772425011170:1961837",
+                    "name": "Files\/File158.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "71",
+                    "uid": "1614775921678033:601704",
+                    "name": "NotEdibleFood-Salt",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "72",
+                    "uid": "1614775925543716:607032",
+                    "name": "NotEdibleFood-Pepper",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "73",
+                    "uid": "1614775929443654:612373",
+                    "name": "EdibleFood-Banana",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "74",
+                    "uid": "1614775932911053:617663",
+                    "name": "EdibleFood-Dates",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "75",
+                    "uid": "1614775937144446:623051",
+                    "name": "EdibleFood-Sambusik",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "76",
+                    "uid": "1614775940295230:628317",
+                    "name": "EdibleFood-Water",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "79",
+                    "uid": "1614777900360340:64216",
+                    "name": "Files\/File177.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "80",
+                    "uid": "1614777908663550:71980",
+                    "name": "Files\/File178.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "81",
+                    "uid": "1614780237241538:449208",
+                    "name": "Files\/File179.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "82",
+                    "uid": "1614790719091451:146010",
+                    "name": "Files\/File211.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "83",
+                    "uid": "1614790719149003:146026",
+                    "name": "Files\/File214",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -360,9 +761,9 @@
                             "v": {
                                 "isBasicMode": "true",
                                 "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "true",
                                     "attachLeft": "false",
                                     "attachRight": "false",
                                     "attachTop": "false"
@@ -374,12 +775,12 @@
                             "v": {
                                 "isBasicMode": "true",
                                 "basicModeSetup": {
-                                    "fixWidth": "true",
-                                    "fixHeight": "true",
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
                                     "attachBottom": "false",
-                                    "attachLeft": "true",
+                                    "attachLeft": "false",
                                     "attachRight": "false",
-                                    "attachTop": "true"
+                                    "attachTop": "false"
                                 }
                             }
                         },
@@ -433,8 +834,8 @@
                                     "fixWidth": "true",
                                     "fixHeight": "true",
                                     "attachBottom": "false",
-                                    "attachLeft": "true",
-                                    "attachRight": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "true",
                                     "attachTop": "true"
                                 }
                             }
@@ -454,49 +855,217 @@
                             }
                         },
                         {
-                            "k": "1614619692625506:657422",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "true",
-                                    "fixHeight": "true",
-                                    "attachBottom": "false",
-                                    "attachLeft": "true",
-                                    "attachRight": "false",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1614619692659320:657824",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "true",
-                                    "fixHeight": "true",
-                                    "attachBottom": "false",
-                                    "attachLeft": "true",
-                                    "attachRight": "false",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1614619692675147:657962",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "true",
-                                    "fixHeight": "true",
-                                    "attachBottom": "false",
-                                    "attachLeft": "true",
-                                    "attachRight": "false",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
                             "k": "1614619692691654:658102",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614715792271396:309368",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "true",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614757143989864:67374",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614757378792436:39506",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614758158613222:210565",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614760163035762:179021",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "true",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614760182281083:192990",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614760329017295:235729",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614766025486614:562773",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614766025522192:563175",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614766025541195:563317",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614766025587605:563501",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "true",
+                                    "fixHeight": "true",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614775751854989:414851",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614775796736924:455139",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614775805247407:472263",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1614775813260017:492989",
                             "v": {
                                 "isBasicMode": "true",
                                 "basicModeSetup": {
@@ -526,21 +1095,43 @@
                 "7": "1614337339882032:755917",
                 "8": "1614337339882506:755918",
                 "9": "1614337339882875:755919",
-                "10": "1614351575898825:684435",
-                "11": "1614608703300016:2013450",
-                "12": "1614608849238391:2045603",
-                "13": "1614608928674816:2071560",
-                "14": "1614609688420156:2254868",
-                "15": "1614616946005494:55408",
-                "16": "1614616946024606:55672",
-                "17": "1614616946058993:56074",
-                "18": "1614617006245389:82514",
-                "19": "1614617006263996:82778",
-                "20": "1614617006317057:83440",
-                "21": "1614619692571121:656634",
-                "22": "1614619692590096:656898",
-                "23": "1614619692607375:657158",
-                "24": "1614619692641269:657560"
+                "10": "1614608703300016:2013450",
+                "11": "1614608849238391:2045603",
+                "12": "1614608928674816:2071560",
+                "13": "1614609688420156:2254868",
+                "14": "1614616946005494:55408",
+                "15": "1614616946024606:55672",
+                "16": "1614616946058993:56074",
+                "17": "1614617006245389:82514",
+                "18": "1614617006263996:82778",
+                "19": "1614617006317057:83440",
+                "20": "1614619692571121:656634",
+                "21": "1614715294080531:214318",
+                "22": "1614715294080817:214319",
+                "23": "1614715299378283:219355",
+                "24": "1614715792271076:309365",
+                "25": "1614757143969717:67110",
+                "26": "1614757378773429:39246",
+                "27": "1614758158612770:210564",
+                "28": "1614760162857401:177505",
+                "29": "1614760182280821:192989",
+                "30": "1614760328996253:235465",
+                "31": "1614766025428477:561985",
+                "32": "1614766025450142:562249",
+                "33": "1614766025467064:562513",
+                "34": "1614766025504880:562915",
+                "35": "1614766025541195:563317",
+                "36": "1614766025556240:563451",
+                "37": "1614766376486597:650184",
+                "38": "1614766376524624:650305",
+                "39": "1614766810413873:832414",
+                "40": "1614769392895677:1267524",
+                "41": "1614769392895814:1267525",
+                "42": "1614775796719708:454879",
+                "43": "1614775805229644:472003",
+                "44": "1614775813239758:492729",
+                "45": "1614776764932304:938124",
+                "46": "1614776783056289:943714"
             }
         },
         "LayerComponent": {
@@ -568,84 +1159,400 @@
                     "v": "Files\/File25.js"
                 },
                 {
-                    "k": "28",
-                    "v": "Files\/File28"
-                },
-                {
-                    "k": "29",
-                    "v": "Files\/File29.gif"
-                },
-                {
-                    "k": "30",
-                    "v": "Files\/File30"
-                },
-                {
-                    "k": "31",
-                    "v": "Files\/File31"
-                },
-                {
                     "k": "33",
                     "v": "Files\/File33.lsmat"
-                },
-                {
-                    "k": "34",
-                    "v": "Files\/File34.pvr"
-                },
-                {
-                    "k": "35",
-                    "v": "Files\/File35.png"
-                },
-                {
-                    "k": "36",
-                    "v": "Files\/File36.png"
-                },
-                {
-                    "k": "37",
-                    "v": "Files\/File37.pvr"
                 },
                 {
                     "k": "44",
                     "v": "Files\/File44.mp3"
                 },
                 {
-                    "k": "45",
-                    "v": "Files\/File45.oprfb"
-                },
-                {
-                    "k": "46",
-                    "v": "Files\/File46.oprfb"
-                },
-                {
-                    "k": "47",
-                    "v": "Files\/File47.oprfb"
-                },
-                {
-                    "k": "48",
-                    "v": "Files\/File48.oprfb"
-                },
-                {
                     "k": "51",
                     "v": "Files\/File51.js"
                 },
                 {
-                    "k": "52",
-                    "v": "Files\/File52"
-                },
-                {
-                    "k": "53",
-                    "v": "Files\/File53.gif"
-                },
-                {
-                    "k": "54",
-                    "v": "Files\/File54"
-                },
-                {
-                    "k": "55",
-                    "v": "Files\/File55"
-                },
-                {
                     "k": "56",
                     "v": "Files\/File56.js"
+                },
+                {
+                    "k": "57",
+                    "v": "Files\/File57.pvr"
+                },
+                {
+                    "k": "58",
+                    "v": "Files\/File58.png"
+                },
+                {
+                    "k": "65",
+                    "v": "Files\/File65"
+                },
+                {
+                    "k": "66",
+                    "v": "Files\/File66.lsmat"
+                },
+                {
+                    "k": "67",
+                    "v": "Files\/File67.png"
+                },
+                {
+                    "k": "68",
+                    "v": "Files\/File68.png"
+                },
+                {
+                    "k": "69",
+                    "v": "Files\/File69.pvr"
+                },
+                {
+                    "k": "70",
+                    "v": "Files\/File70.png"
+                },
+                {
+                    "k": "73",
+                    "v": "Files\/File73.pvr"
+                },
+                {
+                    "k": "74",
+                    "v": "Files\/File74.png"
+                },
+                {
+                    "k": "76",
+                    "v": "Files\/File76.pvr"
+                },
+                {
+                    "k": "77",
+                    "v": "Files\/File77.png"
+                },
+                {
+                    "k": "81",
+                    "v": "Files\/File81.pvr"
+                },
+                {
+                    "k": "82",
+                    "v": "Files\/File82.png"
+                },
+                {
+                    "k": "85",
+                    "v": "Files\/File85.ttf"
+                },
+                {
+                    "k": "86",
+                    "v": "Files\/File86.pvr"
+                },
+                {
+                    "k": "87",
+                    "v": "Files\/File87.png"
+                },
+                {
+                    "k": "89",
+                    "v": "Files\/File89.pvr"
+                },
+                {
+                    "k": "90",
+                    "v": "Files\/File90.png"
+                },
+                {
+                    "k": "106",
+                    "v": "Files\/File106.pvr"
+                },
+                {
+                    "k": "107",
+                    "v": "Files\/File107.png"
+                },
+                {
+                    "k": "108",
+                    "v": "Files\/File108.png"
+                },
+                {
+                    "k": "109",
+                    "v": "Files\/File109.pvr"
+                },
+                {
+                    "k": "110",
+                    "v": "Files\/File110.js"
+                },
+                {
+                    "k": "111",
+                    "v": "Files\/File111.pvr"
+                },
+                {
+                    "k": "112",
+                    "v": "Files\/File112.png"
+                },
+                {
+                    "k": "115",
+                    "v": "Files\/File115.js"
+                },
+                {
+                    "k": "118",
+                    "v": "Files\/File118.png"
+                },
+                {
+                    "k": "119",
+                    "v": "Files\/File119.png"
+                },
+                {
+                    "k": "120",
+                    "v": "Files\/File120.png"
+                },
+                {
+                    "k": "121",
+                    "v": "Files\/File121.png"
+                },
+                {
+                    "k": "122",
+                    "v": "Files\/File122.png"
+                },
+                {
+                    "k": "123",
+                    "v": "Files\/File123.png"
+                },
+                {
+                    "k": "124",
+                    "v": "Files\/File124.pvr"
+                },
+                {
+                    "k": "125",
+                    "v": "Files\/File125.png"
+                },
+                {
+                    "k": "133",
+                    "v": "Files\/File133.pvr"
+                },
+                {
+                    "k": "134",
+                    "v": "Files\/File134.png"
+                },
+                {
+                    "k": "136",
+                    "v": "Files\/File136.pvr"
+                },
+                {
+                    "k": "137",
+                    "v": "Files\/File137.png"
+                },
+                {
+                    "k": "139",
+                    "v": "Files\/File139.pvr"
+                },
+                {
+                    "k": "140",
+                    "v": "Files\/File140.png"
+                },
+                {
+                    "k": "141",
+                    "v": "Files\/File141.png"
+                },
+                {
+                    "k": "146",
+                    "v": "Files\/File146.pvr"
+                },
+                {
+                    "k": "155",
+                    "v": "Files\/File155.pvr"
+                },
+                {
+                    "k": "156",
+                    "v": "Files\/File156.png"
+                },
+                {
+                    "k": "158",
+                    "v": "Files\/File158.pvr"
+                },
+                {
+                    "k": "159",
+                    "v": "Files\/File159.png"
+                },
+                {
+                    "k": "163",
+                    "v": "Files\/File163.oprfb"
+                },
+                {
+                    "k": "164",
+                    "v": "Files\/File164.oprfb"
+                },
+                {
+                    "k": "165",
+                    "v": "Files\/File165.oprfb"
+                },
+                {
+                    "k": "166",
+                    "v": "Files\/File166.oprfb"
+                },
+                {
+                    "k": "167",
+                    "v": "Files\/File167.oprfb"
+                },
+                {
+                    "k": "168",
+                    "v": "Files\/File168.oprfb"
+                },
+                {
+                    "k": "169",
+                    "v": "Files\/File169.oprfb"
+                },
+                {
+                    "k": "170",
+                    "v": "Files\/File170.oprfb"
+                },
+                {
+                    "k": "171",
+                    "v": "Files\/File171.oprfb"
+                },
+                {
+                    "k": "172",
+                    "v": "Files\/File172.oprfb"
+                },
+                {
+                    "k": "173",
+                    "v": "Files\/File173.oprfb"
+                },
+                {
+                    "k": "174",
+                    "v": "Files\/File174.oprfb"
+                },
+                {
+                    "k": "177",
+                    "v": "Files\/File177.mp3"
+                },
+                {
+                    "k": "178",
+                    "v": "Files\/File178.js"
+                },
+                {
+                    "k": "179",
+                    "v": "Files\/File179.jpg"
+                },
+                {
+                    "k": "180",
+                    "v": "Files\/File180.jpg"
+                },
+                {
+                    "k": "181",
+                    "v": "Files\/File181.png"
+                },
+                {
+                    "k": "182",
+                    "v": "Files\/File182.pvr"
+                },
+                {
+                    "k": "183",
+                    "v": "Files\/File183.png"
+                },
+                {
+                    "k": "184",
+                    "v": "Files\/File184.pvr"
+                },
+                {
+                    "k": "185",
+                    "v": "Files\/File185.png"
+                },
+                {
+                    "k": "186",
+                    "v": "Files\/File186.pvr"
+                },
+                {
+                    "k": "187",
+                    "v": "Files\/File187.png"
+                },
+                {
+                    "k": "188",
+                    "v": "Files\/File188.pvr"
+                },
+                {
+                    "k": "189",
+                    "v": "Files\/File189.png"
+                },
+                {
+                    "k": "190",
+                    "v": "Files\/File190.pvr"
+                },
+                {
+                    "k": "191",
+                    "v": "Files\/File191.png"
+                },
+                {
+                    "k": "192",
+                    "v": "Files\/File192.pvr"
+                },
+                {
+                    "k": "193",
+                    "v": "Files\/File193.png"
+                },
+                {
+                    "k": "194",
+                    "v": "Files\/File194.pvr"
+                },
+                {
+                    "k": "195",
+                    "v": "Files\/File195.png"
+                },
+                {
+                    "k": "196",
+                    "v": "Files\/File196.pvr"
+                },
+                {
+                    "k": "197",
+                    "v": "Files\/File197.png"
+                },
+                {
+                    "k": "198",
+                    "v": "Files\/File198.pvr"
+                },
+                {
+                    "k": "201",
+                    "v": "Files\/File201.png"
+                },
+                {
+                    "k": "202",
+                    "v": "Files\/File202.pvr"
+                },
+                {
+                    "k": "203",
+                    "v": "Files\/File203.png"
+                },
+                {
+                    "k": "204",
+                    "v": "Files\/File204.pvr"
+                },
+                {
+                    "k": "207",
+                    "v": "Files\/File207.png"
+                },
+                {
+                    "k": "208",
+                    "v": "Files\/File208.pvr"
+                },
+                {
+                    "k": "209",
+                    "v": "Files\/File209.png"
+                },
+                {
+                    "k": "210",
+                    "v": "Files\/File210.pvr"
+                },
+                {
+                    "k": "211",
+                    "v": "Files\/File211.pvr"
+                },
+                {
+                    "k": "212",
+                    "v": "Files\/File212.png"
+                },
+                {
+                    "k": "213",
+                    "v": "Files\/File213.png"
+                },
+                {
+                    "k": "214",
+                    "v": "Files\/File214"
+                },
+                {
+                    "k": "215",
+                    "v": "Files\/File215.lsmat"
+                },
+                {
+                    "k": "216",
+                    "v": "Files\/File216.pvr"
                 }
             ]
         },
@@ -667,14 +1574,6 @@
                         "v": "Scripts"
                     },
                     {
-                        "k": "982",
-                        "v": "Images\/Gala Apple Food Sticker.gif"
-                    },
-                    {
-                        "k": "983",
-                        "v": "Images\/banana-png.png"
-                    },
-                    {
                         "k": "984",
                         "v": "Images"
                     },
@@ -687,14 +1586,6 @@
                         "v": "Prefabs"
                     },
                     {
-                        "k": "7832",
-                        "v": "Prefabs\/AppleObject.oprfb"
-                    },
-                    {
-                        "k": "7833",
-                        "v": "Prefabs\/BananaObject.oprfb"
-                    },
-                    {
                         "k": "7834",
                         "v": "Audio"
                     },
@@ -703,12 +1594,160 @@
                         "v": "Scripts\/Behavior.js"
                     },
                     {
-                        "k": "7838",
-                        "v": "Images\/Lets Go Running Sticker.gif"
-                    },
-                    {
                         "k": "7839",
                         "v": "Scripts\/Game.js"
+                    },
+                    {
+                        "k": "7840",
+                        "v": "Images\/startButton.png"
+                    },
+                    {
+                        "k": "7842",
+                        "v": "Textures"
+                    },
+                    {
+                        "k": "7843",
+                        "v": "Textures\/white.png"
+                    },
+                    {
+                        "k": "7844",
+                        "v": "Unlit.lsmat"
+                    },
+                    {
+                        "k": "7845",
+                        "v": "Images\/introduction.png"
+                    },
+                    {
+                        "k": "7846",
+                        "v": "Images\/pepper.png"
+                    },
+                    {
+                        "k": "7847",
+                        "v": "Images\/salt.png"
+                    },
+                    {
+                        "k": "7848",
+                        "v": "Images\/button-bg.png"
+                    },
+                    {
+                        "k": "7849",
+                        "v": "Fonts"
+                    },
+                    {
+                        "k": "7850",
+                        "v": "Fonts\/bitsy-ar-standardline.ttf"
+                    },
+                    {
+                        "k": "7851",
+                        "v": "Images\/message-info.png"
+                    },
+                    {
+                        "k": "7852",
+                        "v": "Images\/message-title.png"
+                    },
+                    {
+                        "k": "7856",
+                        "v": "Images\/cheeks.png"
+                    },
+                    {
+                        "k": "7857",
+                        "v": "Scripts\/CheeksScript.js"
+                    },
+                    {
+                        "k": "7858",
+                        "v": "Images\/crown.png"
+                    },
+                    {
+                        "k": "7859",
+                        "v": "Scripts\/CrownScript.js"
+                    },
+                    {
+                        "k": "7860",
+                        "v": "Textures\/Base.png"
+                    },
+                    {
+                        "k": "7861",
+                        "v": "Textures\/MaterialParams.png"
+                    },
+                    {
+                        "k": "7862",
+                        "v": "Textures\/Normal.png"
+                    },
+                    {
+                        "k": "7864",
+                        "v": "Images\/banana.png"
+                    },
+                    {
+                        "k": "7867",
+                        "v": "Images\/pepper-icon.png"
+                    },
+                    {
+                        "k": "7868",
+                        "v": "Images\/salt-icon.png"
+                    },
+                    {
+                        "k": "7869",
+                        "v": "Images\/water.png"
+                    },
+                    {
+                        "k": "7873",
+                        "v": "Images\/date.png"
+                    },
+                    {
+                        "k": "7874",
+                        "v": "Images\/sambousik.png"
+                    },
+                    {
+                        "k": "7875",
+                        "v": "Prefabs\/NotEdibleFood-Salt.oprfb"
+                    },
+                    {
+                        "k": "7876",
+                        "v": "Prefabs\/NotEdibleFood-Pepper.oprfb"
+                    },
+                    {
+                        "k": "7877",
+                        "v": "Prefabs\/EdibleFood-Banana.oprfb"
+                    },
+                    {
+                        "k": "7878",
+                        "v": "Prefabs\/EdibleFood-Dates.oprfb"
+                    },
+                    {
+                        "k": "7879",
+                        "v": "Prefabs\/EdibleFood-Sambusik.oprfb"
+                    },
+                    {
+                        "k": "7880",
+                        "v": "Prefabs\/EdibleFood-Water.oprfb"
+                    },
+                    {
+                        "k": "7883",
+                        "v": "Audio\/game.mp3"
+                    },
+                    {
+                        "k": "7884",
+                        "v": "Script.js"
+                    },
+                    {
+                        "k": "7885",
+                        "v": "Images\/background.jpg"
+                    },
+                    {
+                        "k": "7887",
+                        "v": "Example Textures [REMOVE_ME]"
+                    },
+                    {
+                        "k": "7888",
+                        "v": "Example Textures [REMOVE_ME]\/space_background.png"
+                    },
+                    {
+                        "k": "7889",
+                        "v": "Materials"
+                    },
+                    {
+                        "k": "7890",
+                        "v": "Materials\/BackgroundMat.lsmat"
                     }
                 ],
                 "hashes": [
@@ -750,7 +1789,7 @@
                     },
                     {
                         "k": "974",
-                        "v": "4a1dadd28e27b4872cb76d65664b8a32"
+                        "v": "0ce0615139b5152c22e7b48a7b94eb4f"
                     },
                     {
                         "k": "975",
@@ -874,11 +1913,11 @@
                     },
                     {
                         "k": "7832",
-                        "v": "b88c11e44c89c4d44fdb9d73512212ba"
+                        "v": "1ac5e4b91b42b76fb1d12302b98b888a"
                     },
                     {
                         "k": "7833",
-                        "v": "c0022149ee0f29f7e66103fabe015617"
+                        "v": "ecd66a57ef2eef81b11607c5ab7e396e"
                     },
                     {
                         "k": "7835",
@@ -898,34 +1937,311 @@
                     },
                     {
                         "k": "7839",
-                        "v": "e729dbd8555c6d4b60f3aa560e11f97c"
+                        "v": "f7069244bc80fe9435a8b165504f406b"
+                    },
+                    {
+                        "k": "7840",
+                        "v": "2c80646c5366656941cef8209b85fcae"
+                    },
+                    {
+                        "k": "7841",
+                        "v": "7f405061a7f0f3b3d82dc8d358b0116b"
+                    },
+                    {
+                        "k": "7843",
+                        "v": "0c8dcfed2f50bb81ac5276a14967c005"
+                    },
+                    {
+                        "k": "7844",
+                        "v": "fe2931ce9c1baa9491154180407f6b17"
+                    },
+                    {
+                        "k": "7845",
+                        "v": "253d9a66691750cde76d77ba3562b450"
+                    },
+                    {
+                        "k": "7846",
+                        "v": "ad17c4563eb35a5910ceec2025bd80ad"
+                    },
+                    {
+                        "k": "7847",
+                        "v": "a2e54fb42264f2bc80787a7f504dc200"
+                    },
+                    {
+                        "k": "7848",
+                        "v": "f074879ce85b7667430a04693099cb68"
+                    },
+                    {
+                        "k": "7850",
+                        "v": "a280629b6fec0fd3969a775ed79273af"
+                    },
+                    {
+                        "k": "7851",
+                        "v": "55aed63426ca47765b840df69c8c4ea8"
+                    },
+                    {
+                        "k": "7852",
+                        "v": "4cc08f739fe0231716a0bcef4c83a310"
+                    },
+                    {
+                        "k": "7853",
+                        "v": "127616baf56181fcb0cf3f6d411715eb"
+                    },
+                    {
+                        "k": "7854",
+                        "v": "85788b10f9eb8852aded08138ef7d35e"
+                    },
+                    {
+                        "k": "7855",
+                        "v": "7da73623a0c9889ca1b29376c781f277"
+                    },
+                    {
+                        "k": "7856",
+                        "v": "58d060dee495041350e377f2dfa6c644"
+                    },
+                    {
+                        "k": "7857",
+                        "v": "0583a80de318edc04b6d12d946574d7e"
+                    },
+                    {
+                        "k": "7858",
+                        "v": "7038a1283dae37213de1b2bec14fdb62"
+                    },
+                    {
+                        "k": "7859",
+                        "v": "e8dde2a9a0ddd376fee958b395d2ebff"
+                    },
+                    {
+                        "k": "7860",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "7861",
+                        "v": "af2715bddfbca2d4e72f470d285c5010"
+                    },
+                    {
+                        "k": "7862",
+                        "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
+                    },
+                    {
+                        "k": "7863",
+                        "v": "916daaa81adf75fdc47f757d314a6110"
+                    },
+                    {
+                        "k": "7864",
+                        "v": "327f0acca43361d7dd8bd8dbeee93e94"
+                    },
+                    {
+                        "k": "7865",
+                        "v": "f0f68e323f337ac166b539cd3f32b308"
+                    },
+                    {
+                        "k": "7866",
+                        "v": "028131472ca77ac956ead1ef1d8f2c51"
+                    },
+                    {
+                        "k": "7867",
+                        "v": "c1297f2ba5d4b949dfd158366c2166b8"
+                    },
+                    {
+                        "k": "7868",
+                        "v": "44d137ba1984bdba727bb60364845b8c"
+                    },
+                    {
+                        "k": "7869",
+                        "v": "56ddc5206bdc0a7fa2f6c11d55282474"
+                    },
+                    {
+                        "k": "7870",
+                        "v": "a105f24cf3be7cf825148eb6107ea02b"
+                    },
+                    {
+                        "k": "7871",
+                        "v": "7df98a7a172ca4f91687de8a58ecf5bb"
+                    },
+                    {
+                        "k": "7872",
+                        "v": "2cf8a1a4f6cbf53e809a6617b310a42b"
+                    },
+                    {
+                        "k": "7873",
+                        "v": "8f976fc98bac81e83477691f4ec96401"
+                    },
+                    {
+                        "k": "7874",
+                        "v": "cf1ce36685b0ce7410de280ee00a2635"
+                    },
+                    {
+                        "k": "7875",
+                        "v": "3f0e4ff9cdbd7815e30cbe23408752b7"
+                    },
+                    {
+                        "k": "7876",
+                        "v": "896ab66bca0283b270cc2db5d18d27fc"
+                    },
+                    {
+                        "k": "7877",
+                        "v": "c35bbe87369aec66f5e6bcc8bdb4db08"
+                    },
+                    {
+                        "k": "7878",
+                        "v": "e74cced09238af1eb14d9a437f28ba6b"
+                    },
+                    {
+                        "k": "7879",
+                        "v": "3eb29b3b053141b629b98b0fc3f9bb8e"
+                    },
+                    {
+                        "k": "7880",
+                        "v": "03d3ead1ffa7d8e8cd1d4775d9f2eb83"
+                    },
+                    {
+                        "k": "7881",
+                        "v": "7d1d9f9d57a953eed1c24c3cdfdcf5fd"
+                    },
+                    {
+                        "k": "7882",
+                        "v": "3b4fec094838291b3469526665844961"
+                    },
+                    {
+                        "k": "7883",
+                        "v": "0439a43d51514ccfa2c924e3b0adc544"
+                    },
+                    {
+                        "k": "7884",
+                        "v": "59361291686fd7cebf3981836238abbb"
+                    },
+                    {
+                        "k": "7885",
+                        "v": "0c2e292146232dd3660a7bbf818f6e2b"
+                    },
+                    {
+                        "k": "7888",
+                        "v": "87daba2e83cda8b89532e73ab3b19542"
+                    },
+                    {
+                        "k": "7890",
+                        "v": "73559d5fae4dbfdbb5e13d4ce28c8e3f"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2021-03-01T16:36:59",
+                        "lastModified": "2021-03-03T18:58:39",
                         "name": "Public",
-                        "hash": "39687a2dce15885cff571539eb3cebbb",
+                        "hash": "809c8caa1de5ca8b8a4bc75da4189ec6",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-01T17:19:37",
-                                "name": "Prefabs",
-                                "hash": "1333ac5519b7b4080f07a8b31458f193",
+                                "lastModified": "2021-03-03T13:35:27",
+                                "name": "Textures",
+                                "hash": "bd427a99610257ce62c79273a58a13dc",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-01T17:19:37",
-                                        "name": "BananaObject.oprfb",
-                                        "hash": "c0022149ee0f29f7e66103fabe015617",
+                                        "lastModified": "2021-03-03T13:35:27",
+                                        "name": "MaterialParams.png",
+                                        "hash": "af2715bddfbca2d4e72f470d285c5010",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-01T15:04:06",
-                                        "name": "AppleObject.oprfb",
-                                        "hash": "b88c11e44c89c4d44fdb9d73512212ba",
+                                        "lastModified": "2021-03-03T13:35:27",
+                                        "name": "Base.png",
+                                        "hash": "cb607d7b25a160872c49fb4d2635cc33",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T13:35:27",
+                                        "name": "Normal.png",
+                                        "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-02T22:04:09",
+                                        "name": "white.png",
+                                        "hash": "0c8dcfed2f50bb81ac5276a14967c005",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-02T22:04:09",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2021-03-03T18:58:40",
+                                "name": "Materials",
+                                "hash": "f5b0765c56f2afddbbb9abf18f1c5b1e",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T18:58:40",
+                                        "name": "BackgroundMat.lsmat",
+                                        "hash": "73559d5fae4dbfdbb5e13d4ce28c8e3f",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T18:58:39",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2021-03-03T16:23:35",
+                                "name": "Prefabs",
+                                "hash": "6a0218b71e4be7ed95f12e5b2b7bad78",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:23:35",
+                                        "name": "EdibleFood-Water.oprfb",
+                                        "hash": "03d3ead1ffa7d8e8cd1d4775d9f2eb83",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:23:12",
+                                        "name": "EdibleFood-Dates.oprfb",
+                                        "hash": "e74cced09238af1eb14d9a437f28ba6b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:22:54",
+                                        "name": "NotEdibleFood-Salt.oprfb",
+                                        "hash": "3f0e4ff9cdbd7815e30cbe23408752b7",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T14:59:06",
+                                        "name": "NotEdibleFood-Pepper.oprfb",
+                                        "hash": "896ab66bca0283b270cc2db5d18d27fc",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:23:27",
+                                        "name": "EdibleFood-Sambusik.oprfb",
+                                        "hash": "3eb29b3b053141b629b98b0fc3f9bb8e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T14:59:08",
+                                        "name": "EdibleFood-Banana.oprfb",
+                                        "hash": "c35bbe87369aec66f5e6bcc8bdb4db08",
                                         "children": ""
                                     },
                                     {
@@ -939,29 +2255,120 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-01T16:29:26",
+                                "lastModified": "2021-03-03T16:25:08",
                                 "name": "Images",
-                                "hash": "e31ac7bdc7c8e08a909727cd06b3ccd8",
+                                "hash": "608c8181972f00f6a10ce129bc404c19",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-02-26T16:48:01",
-                                        "name": "banana-png.png",
-                                        "hash": "2f296f2847ea7229a367a13262bff30e",
+                                        "lastModified": "2021-03-03T16:12:53",
+                                        "name": "message-info.png",
+                                        "hash": "55aed63426ca47765b840df69c8c4ea8",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-01T16:29:23",
-                                        "name": "Lets Go Running Sticker.gif",
-                                        "hash": "6ecf823ae410a0d8514cb71b62c33087",
+                                        "lastModified": "2021-03-03T16:13:40",
+                                        "name": "message-title.png",
+                                        "hash": "4cc08f739fe0231716a0bcef4c83a310",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-02-26T11:42:14",
-                                        "name": "Gala Apple Food Sticker.gif",
-                                        "hash": "c3537588c70ef9b57c0dec6a4bbf5765",
+                                        "lastModified": "2021-03-03T16:21:46",
+                                        "name": "salt-icon.png",
+                                        "hash": "44d137ba1984bdba727bb60364845b8c",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:17:30",
+                                        "name": "salt.png",
+                                        "hash": "a2e54fb42264f2bc80787a7f504dc200",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:03:48",
+                                        "name": "background.jpg",
+                                        "hash": "0c2e292146232dd3660a7bbf818f6e2b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:15:14",
+                                        "name": "pepper.png",
+                                        "hash": "ad17c4563eb35a5910ceec2025bd80ad",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:10:37",
+                                        "name": "date.png",
+                                        "hash": "8f976fc98bac81e83477691f4ec96401",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:14:13",
+                                        "name": "pepper-icon.png",
+                                        "hash": "c1297f2ba5d4b949dfd158366c2166b8",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-02T16:09:56",
+                                        "name": "water.png",
+                                        "hash": "56ddc5206bdc0a7fa2f6c11d55282474",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T12:30:38",
+                                        "name": "cheeks.png",
+                                        "hash": "58d060dee495041350e377f2dfa6c644",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:07:10",
+                                        "name": "banana.png",
+                                        "hash": "327f0acca43361d7dd8bd8dbeee93e94",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:18:25",
+                                        "name": "sambousik.png",
+                                        "hash": "cf1ce36685b0ce7410de280ee00a2635",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-02T16:12:40",
+                                        "name": "startButton.png",
+                                        "hash": "2c80646c5366656941cef8209b85fcae",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:08:09",
+                                        "name": "button-bg.png",
+                                        "hash": "f074879ce85b7667430a04693099cb68",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:09:31",
+                                        "name": "crown.png",
+                                        "hash": "7038a1283dae37213de1b2bec14fdb62",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T16:11:45",
+                                        "name": "introduction.png",
+                                        "hash": "253d9a66691750cde76d77ba3562b450",
                                         "children": ""
                                     },
                                     {
@@ -974,10 +2381,17 @@
                                 ]
                             },
                             {
+                                "isFolder": "false",
+                                "lastModified": "2021-01-14T20:26:46",
+                                "name": "Script.js",
+                                "hash": "59361291686fd7cebf3981836238abbb",
+                                "children": ""
+                            },
+                            {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-01T15:04:44",
+                                "lastModified": "2021-03-03T15:48:20",
                                 "name": "Audio",
-                                "hash": "0fc23c8f31e46707e9661ffee82bd937",
+                                "hash": "1e4e3c0817669a9ed1395b86c7ae9649",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -992,27 +2406,70 @@
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T15:24:36",
+                                        "name": "game.mp3",
+                                        "hash": "0439a43d51514ccfa2c924e3b0adc544",
+                                        "children": ""
                                     }
                                 ]
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-01T20:09:11",
-                                "name": "Scripts",
-                                "hash": "6a9fa34bd907cc6681f0cf2669403f62",
+                                "lastModified": "2021-03-03T18:58:39",
+                                "name": "Example Textures [REMOVE_ME]",
+                                "hash": "d9944917de44468941724e8a95cefe43",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-01T20:05:51",
-                                        "name": "Game.js",
-                                        "hash": "e729dbd8555c6d4b60f3aa560e11f97c",
+                                        "lastModified": "2021-03-03T18:58:39",
+                                        "name": "space_background.png",
+                                        "hash": "87daba2e83cda8b89532e73ab3b19542",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-01T20:09:11",
+                                        "lastModified": "2021-03-03T18:58:39",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2021-03-03T15:09:15",
+                                "name": "Scripts",
+                                "hash": "a2bcf44dbbbf5320d671cddec0a13599",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T12:57:51",
+                                        "name": "CheeksScript.js",
+                                        "hash": "0583a80de318edc04b6d12d946574d7e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T15:09:15",
+                                        "name": "Game.js",
+                                        "hash": "f7069244bc80fe9435a8b165504f406b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T13:14:33",
+                                        "name": "CrownScript.js",
+                                        "hash": "e8dde2a9a0ddd376fee958b395d2ebff",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T14:48:27",
                                         "name": "FoodPrefabScript.js",
-                                        "hash": "4a1dadd28e27b4872cb76d65664b8a32",
+                                        "hash": "0ce0615139b5152c22e7b48a7b94eb4f",
                                         "children": ""
                                     },
                                     {
@@ -1030,6 +2487,35 @@
                                         "children": ""
                                     }
                                 ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2021-03-03T09:55:32",
+                                "name": "Fonts",
+                                "hash": "685672acb0f03e9fe07535e33cf24a2f",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T09:54:50",
+                                        "name": "bitsy-ar-standardline.ttf",
+                                        "hash": "a280629b6fec0fd3969a775ed79273af",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-03-03T09:55:14",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2021-03-03T12:16:24",
+                                "name": "Unlit.lsmat",
+                                "hash": "fe2931ce9c1baa9491154180407f6b17",
+                                "children": ""
                             },
                             {
                                 "isFolder": "false",
@@ -1137,6 +2623,32 @@
                                 "publicId": "7839",
                                 "source": "\/Users\/joyce\/Desktop\/cookie 2\/Public\/Scripts\/Game.js",
                                 "additional": ""
+                            },
+                            {
+                                "name": "CheeksScript",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "53",
+                                "dependency": "0",
+                                "uid": "1614768899189821:1137654",
+                                "fileId": "110",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7857",
+                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-MzDBSc\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "CrownScript",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "55",
+                                "dependency": "0",
+                                "uid": "1614770041020417:1422594",
+                                "fileId": "115",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7859",
+                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-MzDBSc\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
                             }
                         ]
                     },
@@ -1154,42 +2666,224 @@
                         "additional": "",
                         "resources": [
                             {
-                                "name": "banana-png",
+                                "name": "startButton",
                                 "type": "1",
                                 "subtype": "9",
-                                "resourceId": "21",
+                                "resourceId": "34",
                                 "dependency": "0",
-                                "uid": "1614350923973838:577488",
-                                "fileId": "34",
-                                "originalId": "35",
-                                "publicId": "983",
-                                "source": "\/Users\/mac 1\/Desktop\/banana-png.png",
+                                "uid": "1614714246714293:23951",
+                                "fileId": "57",
+                                "originalId": "58",
+                                "publicId": "7840",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/startButton.png",
                                 "additional": ""
                             },
                             {
-                                "name": "Gala Apple Food Sticker",
+                                "name": "Portrait Background Segmentation",
                                 "type": "1",
-                                "subtype": "5",
-                                "resourceId": "20",
+                                "subtype": "14",
+                                "resourceId": "38",
                                 "dependency": "0",
-                                "uid": "1614336134723450:514622",
-                                "fileId": "28",
-                                "originalId": "29",
-                                "publicId": "982",
-                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-hQdkkQ\/animation.t3d",
+                                "uid": "1614715629003258:275610",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
                                 "additional": ""
                             },
                             {
-                                "name": "Lets Go Running Sticker",
+                                "name": "introduction",
                                 "type": "1",
-                                "subtype": "5",
-                                "resourceId": "32",
+                                "subtype": "9",
+                                "resourceId": "39",
                                 "dependency": "0",
-                                "uid": "1614608963847013:2081727",
-                                "fileId": "52",
-                                "originalId": "53",
-                                "publicId": "7838",
-                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-sKvThV\/animation.t3d",
+                                "uid": "1614715784889096:303891",
+                                "fileId": "69",
+                                "originalId": "70",
+                                "publicId": "7845",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/introduction.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "pepper",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "40",
+                                "dependency": "0",
+                                "uid": "1614757165477949:78040",
+                                "fileId": "73",
+                                "originalId": "74",
+                                "publicId": "7846",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/pepper.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "salt",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "41",
+                                "dependency": "0",
+                                "uid": "1614757166235645:78398",
+                                "fileId": "76",
+                                "originalId": "77",
+                                "publicId": "7847",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/salt.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "button-bg",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "42",
+                                "dependency": "0",
+                                "uid": "1614757679180615:130373",
+                                "fileId": "81",
+                                "originalId": "82",
+                                "publicId": "7848",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/button-bg.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "message-info",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "44",
+                                "dependency": "0",
+                                "uid": "1614760286228679:215665",
+                                "fileId": "86",
+                                "originalId": "87",
+                                "publicId": "7851",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/message-info.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "message-title",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "45",
+                                "dependency": "0",
+                                "uid": "1614760286929799:216019",
+                                "fileId": "89",
+                                "originalId": "90",
+                                "publicId": "7852",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/message-title.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "cheeks",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "52",
+                                "dependency": "0",
+                                "uid": "1614767446243663:936693",
+                                "fileId": "106",
+                                "originalId": "107",
+                                "publicId": "7856",
+                                "source": "\/Users\/joyce\/Desktop\/cheeks-test3.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "crown",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "54",
+                                "dependency": "0",
+                                "uid": "1614769252606202:1211031",
+                                "fileId": "111",
+                                "originalId": "112",
+                                "publicId": "7858",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/crown.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "banana",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "60",
+                                "dependency": "0",
+                                "uid": "1614772115301605:1851518",
+                                "fileId": "124",
+                                "originalId": "125",
+                                "publicId": "7864",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/banana.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "pepper-icon",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "63",
+                                "dependency": "0",
+                                "uid": "1614772119582131:1857284",
+                                "fileId": "133",
+                                "originalId": "134",
+                                "publicId": "7867",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/pepper-icon.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "salt-icon",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "64",
+                                "dependency": "0",
+                                "uid": "1614772121830040:1860170",
+                                "fileId": "136",
+                                "originalId": "137",
+                                "publicId": "7868",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/salt-icon.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "water",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "65",
+                                "dependency": "0",
+                                "uid": "1614772124175233:1863085",
+                                "fileId": "139",
+                                "originalId": "140",
+                                "publicId": "7869",
+                                "source": "\/Users\/joyce\/Desktop\/monday_attachments\/water.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "date",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "69",
+                                "dependency": "0",
+                                "uid": "1614772423449905:1958733",
+                                "fileId": "155",
+                                "originalId": "156",
+                                "publicId": "7873",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/date.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "sambousik",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "70",
+                                "dependency": "0",
+                                "uid": "1614772425011170:1961837",
+                                "fileId": "158",
+                                "originalId": "159",
+                                "publicId": "7874",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/sambousik.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "background",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "81",
+                                "dependency": "0",
+                                "uid": "1614780237241538:449208",
+                                "fileId": "179",
+                                "originalId": "180",
+                                "publicId": "7885",
+                                "source": "\/Users\/joyce\/GitHub\/lens-projects\/suhur-challenge\/Public\/Images\/bg.jpg",
                                 "additional": ""
                             }
                         ]
@@ -1208,28 +2902,80 @@
                         "additional": "",
                         "resources": [
                             {
-                                "name": "AppleObject",
+                                "name": "NotEdibleFood-Salt",
                                 "type": "12",
                                 "subtype": "-1",
-                                "resourceId": "27",
+                                "resourceId": "71",
                                 "dependency": "0",
-                                "uid": "1614603846486284:1247373",
-                                "fileId": "45",
-                                "originalId": "46",
-                                "publicId": "7832",
+                                "uid": "1614775921678033:601704",
+                                "fileId": "163",
+                                "originalId": "164",
+                                "publicId": "7875",
                                 "source": "",
                                 "additional": ""
                             },
                             {
-                                "name": "BananaObject",
+                                "name": "NotEdibleFood-Pepper",
                                 "type": "12",
                                 "subtype": "-1",
-                                "resourceId": "28",
+                                "resourceId": "72",
                                 "dependency": "0",
-                                "uid": "1614603849637306:1250241",
-                                "fileId": "47",
-                                "originalId": "48",
-                                "publicId": "7833",
+                                "uid": "1614775925543716:607032",
+                                "fileId": "165",
+                                "originalId": "166",
+                                "publicId": "7876",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "EdibleFood-Banana",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "73",
+                                "dependency": "0",
+                                "uid": "1614775929443654:612373",
+                                "fileId": "167",
+                                "originalId": "168",
+                                "publicId": "7877",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "EdibleFood-Dates",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "74",
+                                "dependency": "0",
+                                "uid": "1614775932911053:617663",
+                                "fileId": "169",
+                                "originalId": "170",
+                                "publicId": "7878",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "EdibleFood-Sambusik",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "75",
+                                "dependency": "0",
+                                "uid": "1614775937144446:623051",
+                                "fileId": "171",
+                                "originalId": "172",
+                                "publicId": "7879",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "EdibleFood-Water",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "76",
+                                "dependency": "0",
+                                "uid": "1614775940295230:628317",
+                                "fileId": "173",
+                                "originalId": "174",
+                                "publicId": "7880",
                                 "source": "",
                                 "additional": ""
                             }
@@ -1260,6 +3006,209 @@
                                 "publicId": "7830",
                                 "source": "\/Users\/mac 1\/Downloads\/sound.mp3",
                                 "additional": ""
+                            },
+                            {
+                                "name": "game",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "79",
+                                "dependency": "0",
+                                "uid": "1614777900360340:64216",
+                                "fileId": "177",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7883",
+                                "source": "\/Users\/joyce\/Downloads\/game (mp3cut.net).mp3",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Textures",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "7842",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "white",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "37",
+                                "dependency": "0",
+                                "uid": "1614715449107261:248429",
+                                "fileId": "67",
+                                "originalId": "68",
+                                "publicId": "7843",
+                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-uxIrNc\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Base",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "57",
+                                "dependency": "0",
+                                "uid": "1614771327408355:1635649",
+                                "fileId": "118",
+                                "originalId": "119",
+                                "publicId": "7860",
+                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-mKEvTy\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
+                            },
+                            {
+                                "name": "MaterialParams",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "58",
+                                "dependency": "0",
+                                "uid": "1614771327524288:1635677",
+                                "fileId": "120",
+                                "originalId": "121",
+                                "publicId": "7861",
+                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-mKEvTy\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Normal",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "59",
+                                "dependency": "0",
+                                "uid": "1614771327638222:1635701",
+                                "fileId": "122",
+                                "originalId": "123",
+                                "publicId": "7862",
+                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-mKEvTy\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Unlit",
+                        "type": "2",
+                        "subtype": "0",
+                        "resourceId": "36",
+                        "dependency": "0",
+                        "uid": "1614715449047978:248390",
+                        "fileId": "65",
+                        "originalId": "66",
+                        "publicId": "7844",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Fonts",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "7849",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "bitsy-ar-standardline",
+                                "type": "13",
+                                "subtype": "0",
+                                "resourceId": "43",
+                                "dependency": "0",
+                                "uid": "1614758132351514:201978",
+                                "fileId": "85",
+                                "originalId": "18446744073709551615",
+                                "publicId": "7850",
+                                "source": "\/Users\/joyce\/Downloads\/bitsy-ar-standardline.ttf",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Render Target 2",
+                        "type": "1",
+                        "subtype": "1",
+                        "resourceId": "49",
+                        "dependency": "0",
+                        "uid": "1614764146892668:107122",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Script",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "80",
+                        "dependency": "0",
+                        "uid": "1614777908663550:71980",
+                        "fileId": "178",
+                        "originalId": "18446744073709551615",
+                        "publicId": "7884",
+                        "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-ySFcgY\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Example Textures [REMOVE_ME]",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "7887",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "space_background",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "82",
+                                "dependency": "0",
+                                "uid": "1614790719091451:146010",
+                                "fileId": "211",
+                                "originalId": "212",
+                                "publicId": "7888",
+                                "source": "\/private\/var\/folders\/fm\/r2w0yxns3g550qmmwzz2tzvh0000gn\/T\/Lens Studio-YbJLEg\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Materials",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "7889",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "BackgroundMat",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "83",
+                                "dependency": "0",
+                                "uid": "1614790719149003:146026",
+                                "fileId": "214",
+                                "originalId": "215",
+                                "publicId": "7890",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     }
@@ -1267,7 +3216,11 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1614617006245389:82514"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
@@ -1303,7 +3256,7 @@
                     {
                         "k": "1614333595413505:27204",
                         "v": {
-                            "prefab": "1614603846486284:1247373",
+                            "prefab": "1614775929443654:612373",
                             "isActive": "true",
                             "mapping": [
                                 {
@@ -1328,7 +3281,7 @@
                     {
                         "k": "1614351575898825:684435",
                         "v": {
-                            "prefab": "1614603849637306:1250241",
+                            "prefab": "1614775921678033:601704",
                             "isActive": "true",
                             "mapping": [
                                 {
@@ -1349,6 +3302,106 @@
                                 }
                             ]
                         }
+                    },
+                    {
+                        "k": "1614775751837896:414591",
+                        "v": {
+                            "prefab": "1614775925543716:607032",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1614775751837896:414591",
+                                    "v": "1614775751837896:414591"
+                                },
+                                {
+                                    "k": "1614775751854989:414851",
+                                    "v": "1614775751854989:414851"
+                                },
+                                {
+                                    "k": "1614775751872013:414989",
+                                    "v": "1614775751872013:414989"
+                                },
+                                {
+                                    "k": "1614775751901214:415039",
+                                    "v": "1614775751901214:415039"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1614775796719708:454879",
+                        "v": {
+                            "prefab": "1614775932911053:617663",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1614775796719708:454879",
+                                    "v": "1614775796719708:454879"
+                                },
+                                {
+                                    "k": "1614775796736924:455139",
+                                    "v": "1614775796736924:455139"
+                                },
+                                {
+                                    "k": "1614775796754644:455277",
+                                    "v": "1614775796754644:455277"
+                                },
+                                {
+                                    "k": "1614775796783961:455327",
+                                    "v": "1614775796783961:455327"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1614775805229644:472003",
+                        "v": {
+                            "prefab": "1614775937144446:623051",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1614775805229644:472003",
+                                    "v": "1614775805229644:472003"
+                                },
+                                {
+                                    "k": "1614775805247407:472263",
+                                    "v": "1614775805247407:472263"
+                                },
+                                {
+                                    "k": "1614775805264549:472401",
+                                    "v": "1614775805264549:472401"
+                                },
+                                {
+                                    "k": "1614775805293592:472451",
+                                    "v": "1614775805293592:472451"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1614775813239758:492729",
+                        "v": {
+                            "prefab": "1614775940295230:628317",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1614775813239758:492729",
+                                    "v": "1614775813239758:492729"
+                                },
+                                {
+                                    "k": "1614775813260017:492989",
+                                    "v": "1614775813260017:492989"
+                                },
+                                {
+                                    "k": "1614775813274172:493125",
+                                    "v": "1614775813274172:493125"
+                                },
+                                {
+                                    "k": "1614775813304688:493173",
+                                    "v": "1614775813304688:493173"
+                                }
+                            ]
+                        }
                     }
                 ]
             },
@@ -1357,40 +3410,13 @@
         "Compression::IController": {
             "compression_info": [
                 {
-                    "k": "1614336134723450:514622",
+                    "k": "1614714246714293:23951",
                     "v": {
                         "infos": {
-                            "originalSize": "112036",
-                            "compressedSize": "39823",
-                            "originalRAM": "4194304",
-                            "compressedRAM": "524288",
-                            "extension": "t3d",
-                            "settings": {
-                                "isCompressed": "true",
-                                "level": "2",
-                                "type": "1"
-                            }
-                        },
-                        "uncompressed_file": "30",
-                        "compressed_files": [
-                            {
-                                "k": {
-                                    "uncompressed_hash": "81642e9450d850c88b9f097f08d4be19",
-                                    "settings_hash": "2049"
-                                },
-                                "v": "31"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "k": "1614350923973838:577488",
-                    "v": {
-                        "infos": {
-                            "originalSize": "87769",
-                            "compressedSize": "47237",
-                            "originalRAM": "11421472",
-                            "compressedRAM": "1430576",
+                            "originalSize": "63261",
+                            "compressedSize": "37036",
+                            "originalRAM": "15654912",
+                            "compressedRAM": "1957888",
                             "extension": "png",
                             "settings": {
                                 "isCompressed": "true",
@@ -1398,41 +3424,419 @@
                                 "type": "1"
                             }
                         },
-                        "uncompressed_file": "36",
+                        "uncompressed_file": "209",
                         "compressed_files": [
                             {
                                 "k": {
-                                    "uncompressed_hash": "2f296f2847ea7229a367a13262bff30e",
+                                    "uncompressed_hash": "0fe9b13bd4d3fe12a62f0d8170c999f8",
                                     "settings_hash": "2049"
                                 },
-                                "v": "37"
+                                "v": "210"
                             }
                         ]
                     }
                 },
                 {
-                    "k": "1614608963847013:2081727",
+                    "k": "1614715784889096:303891",
                     "v": {
                         "infos": {
-                            "originalSize": "109566",
-                            "compressedSize": "50262",
-                            "originalRAM": "4194304",
-                            "compressedRAM": "524288",
-                            "extension": "t3d",
+                            "originalSize": "20780",
+                            "compressedSize": "15507",
+                            "originalRAM": "845208",
+                            "compressedRAM": "107088",
+                            "extension": "png",
                             "settings": {
                                 "isCompressed": "true",
                                 "level": "2",
                                 "type": "1"
                             }
                         },
-                        "uncompressed_file": "54",
+                        "uncompressed_file": "189",
                         "compressed_files": [
                             {
                                 "k": {
-                                    "uncompressed_hash": "f2266ce840adfa2a96e14b108dc05a94",
+                                    "uncompressed_hash": "253d9a66691750cde76d77ba3562b450",
                                     "settings_hash": "2049"
                                 },
-                                "v": "55"
+                                "v": "190"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614757165477949:78040",
+                    "v": {
+                        "infos": {
+                            "originalSize": "8278",
+                            "compressedSize": "2593",
+                            "originalRAM": "34224",
+                            "compressedRAM": "4416",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "197",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "ad17c4563eb35a5910ceec2025bd80ad",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "198"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614757166235645:78398",
+                    "v": {
+                        "infos": {
+                            "originalSize": "3529",
+                            "compressedSize": "1289",
+                            "originalRAM": "7224",
+                            "compressedRAM": "968",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "201",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "a2e54fb42264f2bc80787a7f504dc200",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "202"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614757679180615:130373",
+                    "v": {
+                        "infos": {
+                            "originalSize": "10084",
+                            "compressedSize": "5738",
+                            "originalRAM": "233928",
+                            "compressedRAM": "29584",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "183",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "f074879ce85b7667430a04693099cb68",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "184"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614760286228679:215665",
+                    "v": {
+                        "infos": {
+                            "originalSize": "12374",
+                            "compressedSize": "8395",
+                            "originalRAM": "323632",
+                            "compressedRAM": "40680",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "191",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "55aed63426ca47765b840df69c8c4ea8",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "192"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614760286929799:216019",
+                    "v": {
+                        "infos": {
+                            "originalSize": "4164",
+                            "compressedSize": "2846",
+                            "originalRAM": "185504",
+                            "compressedRAM": "23312",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "193",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "4cc08f739fe0231716a0bcef4c83a310",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "194"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614767446243663:936693",
+                    "v": {
+                        "infos": {
+                            "originalSize": "3328",
+                            "compressedSize": "5193",
+                            "originalRAM": "4198592",
+                            "compressedRAM": "524824",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "108",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "58d060dee495041350e377f2dfa6c644",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "109"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614769252606202:1211031",
+                    "v": {
+                        "infos": {
+                            "originalSize": "11357",
+                            "compressedSize": "4777",
+                            "originalRAM": "62560",
+                            "compressedRAM": "7912",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "185",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "7038a1283dae37213de1b2bec14fdb62",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "186"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614772115301605:1851518",
+                    "v": {
+                        "infos": {
+                            "originalSize": "9690",
+                            "compressedSize": "3610",
+                            "originalRAM": "73884",
+                            "compressedRAM": "9504",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "181",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "327f0acca43361d7dd8bd8dbeee93e94",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "182"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614772119582131:1857284",
+                    "v": {
+                        "infos": {
+                            "originalSize": "3535",
+                            "compressedSize": "1447",
+                            "originalRAM": "23384",
+                            "compressedRAM": "3040",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "195",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "c1297f2ba5d4b949dfd158366c2166b8",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "196"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614772121830040:1860170",
+                    "v": {
+                        "infos": {
+                            "originalSize": "3971",
+                            "compressedSize": "1450",
+                            "originalRAM": "12760",
+                            "compressedRAM": "1680",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "207",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "44d137ba1984bdba727bb60364845b8c",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "208"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614772124175233:1863085",
+                    "v": {
+                        "infos": {
+                            "originalSize": "7306",
+                            "compressedSize": "18095",
+                            "originalRAM": "15654912",
+                            "compressedRAM": "1957888",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "141",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "6c9a5b967d28aa5a922b96b0b1c1f27e",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "146"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614772423449905:1958733",
+                    "v": {
+                        "infos": {
+                            "originalSize": "3066",
+                            "compressedSize": "1911",
+                            "originalRAM": "16320",
+                            "compressedRAM": "2040",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "187",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "8f976fc98bac81e83477691f4ec96401",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "188"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614772425011170:1961837",
+                    "v": {
+                        "infos": {
+                            "originalSize": "1822",
+                            "compressedSize": "985",
+                            "originalRAM": "8200",
+                            "compressedRAM": "1144",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "203",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "cf1ce36685b0ce7410de280ee00a2635",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "204"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1614790719091451:146010",
+                    "v": {
+                        "infos": {
+                            "originalSize": "132222",
+                            "compressedSize": "74321",
+                            "originalRAM": "8294400",
+                            "compressedRAM": "1036800",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1"
+                            }
+                        },
+                        "uncompressed_file": "213",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "87daba2e83cda8b89532e73ab3b19542",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "216"
                             }
                         ]
                     }

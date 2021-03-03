@@ -1,6 +1,7 @@
 //@input Component.ScriptComponent objectSpawner
 //@input int points 
 
+
 var threshold = 0.1;
 var distanceFromMouth = 0;
 

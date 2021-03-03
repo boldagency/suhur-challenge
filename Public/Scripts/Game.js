@@ -17,12 +17,19 @@
 //@input SceneObject ScoreScreen
 //@input SceneObject EndScreen
 
+//@ui {"widget":"separator"}
+//@ui {"widget":"label", "label":"Sounds"}
+//@input Component.AudioComponent Sound_BGM
+
+
 //0--BeforeGameStart 1--DuringGame 2--GameEnded
 var startgame = false;
 var gameState = 0;
 var currentScore = 0;
 global.behaviorSystem.addCustomTriggerResponse("START_GAME", onGameStart);
 setState(0);
+
+var spawnedObjects = [];
 
 var countDownDate = script.timer;
 var timerOn= false;
@@ -31,6 +38,10 @@ var spawnTimer = 0;
 var spawnFrequency =  script.spawnFrequency; //reverse spawnFrequency so higher number would produce more frequent result, not necessary for our game but easier to understand.
 var spawnRange = script.spawnRange;
 var audioComponent = script.getSceneObject().getComponent("Component.AudioComponent");
+
+//get screen position of this aka ObjectSpawner object
+var screenTransform = script.getSceneObject().getComponent("Component.ScreenTransform");    
+var myScreenPos = screenTransform.anchors.getCenter();
 
 
 script.createEvent("UpdateEvent").bind(function(){
@@ -56,16 +67,36 @@ script.createEvent("MouthClosedEvent").bind(function(){
 
 
 function spawnObject(){
-   //creating a copy of the prefab  
-    for(var i=0; i<script.objectPrefab.length; i++)
-    {
-        addPrefab(script.objectPrefab[i])
-    }
+
+        //creating a copy of the prefab   
+    var randomIndex = Math.floor(Math.random()*script.objectPrefab.length);
+    var newObj = script.objectPrefab[randomIndex].instantiate(script.getSceneObject().getParent());
+    newObj.name = "Cookie" + spawnedObjects.length.toString();
+    spawnedObjects.push(newObj);
+    
+   //randomize position with range
+    var randomXpos = myScreenPos.x + Math.random()*script.spawnRange*3 - script.spawnRange;
+    var newObjPosition = new vec2(randomXpos, myScreenPos.y);
+    
+    //set screen position of newObj aka ObjectPrefab object
+    var objScreenTransform = newObj.getComponent("Component.ScreenTransform");
+    objScreenTransform.anchors.setCenter(newObjPosition);
+
 }
 
 function addPrefab(prefabObject){
-    var newObj = prefabObject.instantiate(script.getSceneObject().getParent());
-  
+    var newObj = prefabObject.instantiate(script.getSceneObject().getParent());  
+    
+    
+    var meshVisual = prefabObject.getComponent("Component.Image"); 
+    prefabObject
+//   var randomTextureIndex= getRandomInt(0, script.texture.length);
+//    var randomTexture=script.texture[randomTextureIndex];
+//    meshVisual.mainMaterial.mainPass.baseTex = randomTexture;
+//
+    
+    
+    
    //get screen position of this aka ObjectSpawner object
    var screenTransform = script.getSceneObject().getComponent("Component.ScreenTransform");   
    var myScreenPos = screenTransform.anchors.getCenter();
@@ -136,6 +167,10 @@ function onGameStart(){
 function onGameEnd(){
     startgame = false;
     script.result.text = currentScore.toString();
+    global.showCheeks();
+    if(currentScore>1){
+        global.showCrown();
+    }
     setState(2);
 }
 
@@ -148,16 +183,19 @@ function setState(gameStateInt){
            script.StartScreen.enabled = true;
            script.ScoreScreen.enabled = false;
            script.EndScreen.enabled = false;
+           script.Sound_BGM.stop(false);
        break;
        case 1://during game
            script.StartScreen.enabled = false;
            script.ScoreScreen.enabled = true;
           script.EndScreen.enabled = false;
+          script.Sound_BGM.play(-1);
        break;
        case 2://after game ended
            script.StartScreen.enabled = false;
            script.ScoreScreen.enabled = false;
            script.EndScreen.enabled = true;
+          script.Sound_BGM.stop(false);
        break;
    }
 }

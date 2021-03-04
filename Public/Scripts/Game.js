@@ -1,21 +1,48 @@
+//@ui {"widget":"label", "label":"Prefabs Foods"}
 //@input Asset.ObjectPrefab[] objectPrefab
+
+//@ui {"widget":"separator"}
+//@ui {"widget":"label", "label":"Game Controller"}
 //@input float spawnFrequency{"widget":"slider","min":0.1, "max":4, "step":0.02}
 //@input float spawnRandomizer{"widget":"slider","min":0, "max":0.5, "step":0.02}
 //@input float spawnRange {"widget":"slider","min":0, "max":1, "step":0.1}
 //@input float fallingSpeedMin
 //@input float fallingSpeedMax
+
+//@ui {"widget":"separator"}
+//@ui {"widget":"label", "label":"Mouth Position"}
 //@input SceneObject mouthPositionObject
+//@input Component.Text mouthPositionNumber
+
+//@ui {"widget":"separator"}
+//@ui {"widget":"label", "label":"Camera"}
 //@input Component.Camera camera
+
+//@ui {"widget":"separator"}
+//@ui {"widget":"label", "label":"Trigger Game Button"}
 //@input SceneObject startButton
+
+//@ui {"widget":"separator"}
+//@ui {"widget":"label", "label":"Scores"}
 //@input Component.Text score
 //@input Component.Text result
 //@input Component.Text counter
+
+//@ui {"widget":"separator"}
+//@ui {"widget":"label", "label":"Game Duration"}
 //@input int timer
 
 //game state related
+//@ui {"widget":"separator"}
+//@ui {"widget":"label", "label":"Game Screens"}
 //@input SceneObject StartScreen
 //@input SceneObject ScoreScreen
 //@input SceneObject EndScreen
+
+//@ui {"widget":"separator"}
+//@ui {"widget":"label", "label":"Text Colors"}
+// @input vec4 error_color = {1,1,1,1} {"widget":"color"}
+// @input vec4 correct_color = {1,1,1,1} {"widget":"color"}
 
 //@ui {"widget":"separator"}
 //@ui {"widget":"label", "label":"Sounds"}
@@ -88,15 +115,9 @@ function addPrefab(prefabObject){
     var newObj = prefabObject.instantiate(script.getSceneObject().getParent());  
     
     
-    var meshVisual = prefabObject.getComponent("Component.Image"); 
-    prefabObject
-//   var randomTextureIndex= getRandomInt(0, script.texture.length);
-//    var randomTexture=script.texture[randomTextureIndex];
-//    meshVisual.mainMaterial.mainPass.baseTex = randomTexture;
-//
+    var meshVisual = prefabObject.getComponent("Component.Image");
     
-    
-    
+  
    //get screen position of this aka ObjectSpawner object
    var screenTransform = script.getSceneObject().getComponent("Component.ScreenTransform");   
    var myScreenPos = screenTransform.anchors.getCenter();
@@ -144,9 +165,26 @@ function play(){
 //Update User Score
 function updateScore(number){
     if(gameState==1){
-       currentScore += number;
-       script.score.text = currentScore.toString();
+        //minimum score is zero
+        if(!(number<0 && currentScore==0) ){
+           currentScore += number;
+           script.score.text = currentScore.toString();
+        }
     }
+}
+
+
+function showPointsOnMouth(point){
+    if(point<0){
+      script.mouthPositionNumber.textFill.color=script.error_color;
+    }
+    else{
+        point='+'+point;
+      script.mouthPositionNumber.textFill.color=script.correct_color;
+    }
+
+    script.mouthPositionNumber.text=point.toString();
+    global.tweenManager.startTween(script.mouthPositionNumber.getSceneObject(), "tweenText");
 }
 
 
@@ -167,11 +205,12 @@ function onGameStart(){
 function onGameEnd(){
     startgame = false;
     script.result.text = currentScore.toString();
-    global.showCheeks();
+   
     if(currentScore>1){
         global.showCrown();
     }
     setState(2);
+     global.showCheeks();
 }
 
 
@@ -216,11 +255,8 @@ function countdownStart() {
     })
     delayedEvent.reset(0)
 }
-
 //Function that will run when countdowun is over
 function countdownFinished() {
-      // Add your own functions/code here to run when the countdown is over
-      // Remove next two lines
         timerOn=false;
         onGameEnd();
 }
@@ -229,3 +265,4 @@ script.api.play= play;
 script.api.getFallingSpeed = getFallingSpeed;
 script.api.getDistanceFromMouth = getDistanceFromMouth;
 script.api.updateScore = updateScore;
+script.api.showPointsOnMouth=showPointsOnMouth;

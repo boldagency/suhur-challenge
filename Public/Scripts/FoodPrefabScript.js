@@ -19,12 +19,16 @@ script.createEvent("UpdateEvent").bind(function(){
             if(global.isMouthOpened == true) {
                 distanceFromMouth = script.objectSpawner.api.getDistanceFromMouth(currentpos);
                 if(distanceFromMouth < threshold){
-          
-            script.objectSpawner.api.updateScore(script.points);
-                   script.objectSpawner.api.play();
-                   script.getSceneObject().destroy();
-                   print("An apple has been eaten!"+ scipt.points)
-                }
+                
+                    //update user score
+                    script.objectSpawner.api.updateScore(script.points);
+                   //play sound
+                    script.objectSpawner.api.play();
+                    //attach point added to user's mouth
+                    script.objectSpawner.api.showPointsOnMouth(script.points);
+                    //destroy the object
+                    script.getSceneObject().destroy();
+               }
             }
             
             if(currentpos.y < -1.5){

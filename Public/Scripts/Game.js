@@ -184,7 +184,10 @@ function showPointsOnMouth(point){
     }
 
     script.mouthPositionNumber.text=point.toString();
-    global.tweenManager.startTween(script.mouthPositionNumber.getSceneObject(), "tweenText");
+    if(global.tweenManager){
+            global.tweenManager.startTween(script.mouthPositionNumber.getSceneObject(), "tweenText");
+
+    }
 }
 
 

@@ -14,8 +14,9 @@ var fallingSpeed =  script.objectSpawner ? script.objectSpawner.api.getFallingSp
 
 script.createEvent("UpdateEvent").bind(function(){
     if(script.objectSpawner){
+        
+        //Generate Random y position for the food prefab
          var currentpos =  screenTransform.anchors.getCenter();
-    
           currentpos.y -= fallingSpeed * getDeltaTime();      
           screenTransform.anchors.setCenter(currentpos);
          

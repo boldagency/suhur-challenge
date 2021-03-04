@@ -3,7 +3,7 @@
     "document_id": "4MqWCMbeQYqcCLpcGjWU",
     "original_document_id": "4MqWCMbeQYqcCLpcGjWU",
     "version": "26",
-    "lastChanged": "1614868713493",
+    "lastChanged": "1614877351487",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -30,9 +30,6 @@
             "collapsedList": [
                 [
                     [
-                        "Audio"
-                    ],
-                    [
                         "Audio",
                         "Drink"
                     ],
@@ -47,10 +44,6 @@
                     [
                         "Audio",
                         "game"
-                    ],
-                    [
-                        "Audio",
-                        "yum"
                     ],
                     [
                         "Fonts"
@@ -152,9 +145,6 @@
                     [
                         "Prefabs",
                         "NotEdibleFood-Salt"
-                    ],
-                    [
-                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -659,10 +649,8 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "101:100",
                     "1517446348227994:84813",
-                    "1614285425567700:50917",
-                    "1614331511401714:1427875",
+                    "1614337339882032:755917",
                     "1614337339882506:755918",
                     "1614337339882875:755919",
                     "1614422378770473:967981",
@@ -687,13 +675,13 @@
             ]
         },
         "MetaInfoUIComponent": {
-            "icon_hash": "56814dbefc6c60009fe6066406087653",
+            "icon_hash": "494aabc3e8766d3fb5f6d60de92ed672",
             "icon_path": "icon.png",
             "hints": [
                 ""
             ],
             "lens": "Suhur Challenge",
-            "applicability": "3",
+            "applicability": "1",
             "lens_descriptors": ""
         },
         "PreviewUiComponent": {
@@ -810,14 +798,6 @@
                     "resId": "18",
                     "uid": "1614286119784360:162788",
                     "name": "Files\/File25.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "26",
-                    "uid": "1614429344674150:1682353",
-                    "name": "Files\/File44.mp3",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -2055,10 +2035,6 @@
                     "v": "Files\/File33.lsmat"
                 },
                 {
-                    "k": "44",
-                    "v": "Files\/File44.mp3"
-                },
-                {
                     "k": "51",
                     "v": "Files\/File51.js"
                 },
@@ -2698,10 +2674,6 @@
                         "v": "Images"
                     },
                     {
-                        "k": "7830",
-                        "v": "Audio\/yum.mp3"
-                    },
-                    {
                         "k": "7831",
                         "v": "Prefabs"
                     },
@@ -3193,7 +3165,7 @@
                     },
                     {
                         "k": "974",
-                        "v": "5467b3c2a77ee5085c6bc920ef7d5d97"
+                        "v": "1d9205821c4b35f035c2e53ad9f53a4f"
                     },
                     {
                         "k": "975",
@@ -3341,7 +3313,7 @@
                     },
                     {
                         "k": "7839",
-                        "v": "04ec0ba3810963e5f67b3111825f4ec3"
+                        "v": "04541782920754661a4e4750f4c710fd"
                     },
                     {
                         "k": "7840",
@@ -4113,7 +4085,7 @@
                         "isFolder": "true",
                         "lastModified": "2021-03-04T16:37:58",
                         "name": "Public",
-                        "hash": "268c7a258a41d1b3700f36d3342264a3",
+                        "hash": "102c7f4a5022b1a3a0db04cc1ceeb7fc",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -4974,9 +4946,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-04T16:07:35",
+                                "lastModified": "2021-03-04T18:30:48",
                                 "name": "Audio",
-                                "hash": "5613f5d4ac98438dcad13b17e917dd90",
+                                "hash": "4ebfb9e366bbbcd1dde57c32916de290",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -4990,13 +4962,6 @@
                                         "lastModified": "2021-03-04T14:46:35",
                                         "name": "Drink.mp3",
                                         "hash": "882ff8aabda107d98310011735f3b4a6",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2021-02-27T14:35:40",
-                                        "name": "yum.mp3",
-                                        "hash": "27ddbc2f83f04b7d6b90b982787c053f",
                                         "children": ""
                                     },
                                     {
@@ -5024,9 +4989,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2021-03-04T16:20:19",
+                                "lastModified": "2021-03-04T18:52:40",
                                 "name": "Scripts",
-                                "hash": "923c223a692da57f1236b6be2dfb1518",
+                                "hash": "e988d0c6a9d067650d4a345ee199a0fc",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5037,9 +5002,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-04T16:19:58",
+                                        "lastModified": "2021-03-04T18:52:40",
                                         "name": "Game.js",
-                                        "hash": "04ec0ba3810963e5f67b3111825f4ec3",
+                                        "hash": "04541782920754661a4e4750f4c710fd",
                                         "children": ""
                                     },
                                     {
@@ -5051,9 +5016,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2021-03-04T16:19:11",
+                                        "lastModified": "2021-03-04T18:31:59",
                                         "name": "FoodPrefabScript.js",
-                                        "hash": "5467b3c2a77ee5085c6bc920ef7d5d97",
+                                        "hash": "1d9205821c4b35f035c2e53ad9f53a4f",
                                         "children": ""
                                     },
                                     {
@@ -5558,19 +5523,6 @@
                         "source": "",
                         "additional": "",
                         "resources": [
-                            {
-                                "name": "yum",
-                                "type": "5",
-                                "subtype": "0",
-                                "resourceId": "26",
-                                "dependency": "0",
-                                "uid": "1614429344674150:1682353",
-                                "fileId": "44",
-                                "originalId": "18446744073709551615",
-                                "publicId": "7830",
-                                "source": "\/Users\/mac 1\/Downloads\/sound.mp3",
-                                "additional": ""
-                            },
                             {
                                 "name": "game",
                                 "type": "5",
@@ -6728,8 +6680,14 @@
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1614775813239758:492729"
+                "resources": [
+                    {
+                        "uid": "1614616855133710:5765",
+                        "path_list": [
+                            "Scripts",
+                            "Game"
+                        ]
+                    }
                 ]
             }
         },

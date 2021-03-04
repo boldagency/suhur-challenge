@@ -50,29 +50,32 @@
 
 
 //0--BeforeGameStart 1--DuringGame 2--GameEnded
-var startgame = false;
+var startGame = false;
 var gameState = 0;
 var currentScore = 0;
-global.behaviorSystem.addCustomTriggerResponse("START_GAME", onGameStart);
 setState(0);
 
 var spawnedObjects = [];
 
 var countDownDate = script.timer;
-var timerOn= false;
 
 var spawnTimer = 0;
 var spawnFrequency =  script.spawnFrequency; //reverse spawnFrequency so higher number would produce more frequent result, not necessary for our game but easier to understand.
 var spawnRange = script.spawnRange;
+
+//Get audio of the game
 var audioComponent = script.getSceneObject().getComponent("Component.AudioComponent");
 
 //get screen position of this aka ObjectSpawner object
 var screenTransform = script.getSceneObject().getComponent("Component.ScreenTransform");    
 var myScreenPos = screenTransform.anchors.getCenter();
 
+var aspectRatio = script.camera ? script.camera.aspect : 0;
 
 script.createEvent("UpdateEvent").bind(function(){
-    if(script.camera && startgame ){
+    if(script.camera && startGame ){
+        
+      //Create Prefabs
       if(spawnTimer < spawnFrequency){
         spawnTimer += getDeltaTime();
         }else{
@@ -83,22 +86,12 @@ script.createEvent("UpdateEvent").bind(function(){
     }
 });
 
-//Detect if mouthh is open
-global.isMouthOpened = false;
-script.createEvent("MouthOpenedEvent").bind(function(){
-    global.isMouthOpened = true;
-});
-script.createEvent("MouthClosedEvent").bind(function(){
-    global.isMouthOpened = false;
-});
-
-
+//Create Prefabs
 function spawnObject(){
-
-        //creating a copy of the prefab   
+    //creating a copy of the prefab   
     var randomIndex = Math.floor(Math.random()*script.objectPrefab.length);
     var newObj = script.objectPrefab[randomIndex].instantiate(script.getSceneObject().getParent());
-    newObj.name = "Cookie" + spawnedObjects.length.toString();
+    newObj.name = "food" + spawnedObjects.length.toString();
     spawnedObjects.push(newObj);
     
    //randomize position with range
@@ -112,11 +105,7 @@ function spawnObject(){
 }
 
 function addPrefab(prefabObject){
-    var newObj = prefabObject.instantiate(script.getSceneObject().getParent());  
-    
-    
-    var meshVisual = prefabObject.getComponent("Component.Image");
-    
+    var newObj = prefabObject.instantiate(script.getSceneObject().getParent());      
   
    //get screen position of this aka ObjectSpawner object
    var screenTransform = script.getSceneObject().getComponent("Component.ScreenTransform");   
@@ -131,6 +120,21 @@ function addPrefab(prefabObject){
    objScreenTransform.anchors.setCenter(newObjPosition);
 }
 
+//Generate Random Number for Food Prefab Speeds
+function getFallingSpeed(){
+   return Math.random() * (script.fallingSpeedMax - script.fallingSpeedMin) + script.fallingSpeedMin;
+}
+
+//Detect if mouthh is open
+global.isMouthOpened = false;
+script.createEvent("MouthOpenedEvent").bind(function(){
+    global.isMouthOpened = true;
+});
+script.createEvent("MouthClosedEvent").bind(function(){
+    global.isMouthOpened = false;
+});
+
+//Get Mouth Position
 function getMouthPosition(){
    var mouthWorldPos = script.mouthPositionObject.getTransform().getWorldPosition() ;
    var mouthPos =  script.camera.worldSpaceToScreenSpace(mouthWorldPos);
@@ -138,8 +142,7 @@ function getMouthPosition(){
    return mouthPos;
 }
 
-
-var aspectRatio = script.camera ? script.camera.aspect : 0;
+//Calculate distance of an object from the mouth
 function getDistanceFromMouth(pos1){
     var pos2= getMouthPosition();
     //get x y distance (screen space) between 2 points
@@ -153,27 +156,8 @@ function getDistanceFromMouth(pos1){
         return Math.sqrt(xDistance*xDistance + yDistance*yDistance);
 }
 
-function getFallingSpeed(){
-   return Math.random() * (script.fallingSpeedMax - script.fallingSpeedMin) + script.fallingSpeedMin;
-}
-
-//Play Audio
-function play(){
-    audioComponent.play(1);
-}
-
-//Update User Score
-function updateScore(number){
-    if(gameState==1){
-        //minimum score is zero
-        if(!(number<0 && currentScore==0) ){
-           currentScore += number;
-           script.score.text = currentScore.toString();
-        }
-    }
-}
-
-
+//Show points that will be added/removeed from the total score
+//The points will be shown on top of the user's mouth
 function showPointsOnMouth(point){
     if(point<0){
       script.mouthPositionNumber.textFill.color=script.error_color;
@@ -190,33 +174,41 @@ function showPointsOnMouth(point){
     }
 }
 
-
-
-function onGameStart(){
-    if(script.camera){
-           startgame = true;
-            timerOn= true;
-            countdownStart(); 
-    
-           setState(1);
-           currentScore = 0;
-           missedScore = 0;   
+//Update User Score
+function updateScore(number){
+    if(gameState==1){
+        //minimum score is zero
+        if(!(number<0 && currentScore==0) ){
+           currentScore += number;
+           script.score.text = currentScore.toString();
+        }
     }
-
 }
 
+
+//Enable Game Region
+function onGameStart(){
+    startGame = true;
+    countdownStart();  //start count down 
+    setState(1);//update game state
+    currentScore = 0; //reset user's score   
+}
+
+//Enable End Screen
 function onGameEnd(){
-    startgame = false;
+    startGame = false;
     script.result.text = currentScore.toString();
    
+    //if the user score is >= to 1, show the crown on user's head
     if(currentScore>1){
         global.showCrown();
     }
-    setState(2);
-     global.showCheeks();
+    setState(2); //show end screen
+   global.showCheeks(); //add blush to user's cheeks
 }
 
-
+//Set State of the App
+// 1--Start Screen  2--Game Screen 3-- End Screen
 function setState(gameStateInt){
   gameState= gameStateInt;
   if(script.camera)
@@ -258,13 +250,16 @@ function countdownStart() {
     })
     delayedEvent.reset(0)
 }
+
 //Function that will run when countdowun is over
 function countdownFinished() {
-        timerOn=false;
-        onGameEnd();
+    onGameEnd();
 }
 
-script.api.play= play;
+//Trigger Event to start game
+global.behaviorSystem.addCustomTriggerResponse("START_GAME", onGameStart);
+
+//Make Functions Accessible 
 script.api.getFallingSpeed = getFallingSpeed;
 script.api.getDistanceFromMouth = getDistanceFromMouth;
 script.api.updateScore = updateScore;
